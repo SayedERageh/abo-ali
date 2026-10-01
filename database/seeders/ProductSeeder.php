@@ -14,18 +14,18 @@ class ProductSeeder extends Seeder
         $products = [
 
             [
-                'name_ar' => 'قطع غيار غسالات LG',
-                'name_en' => 'LG Washing Machine Spare Parts',
+                'name_ar' => 'نقل عفش الكويت',
+                'name_en' => 'Furniture Moving in Kuwait',
 
-                'slug' => 'lg-washing-machine-spare-parts',
+                'slug' => 'furniture-moving-kuwait',
 
                 'description_ar' =>
-                    'نوفر مجموعة متنوعة من قطع غيار غسالات LG المناسبة لأعمال الصيانة والإصلاح، مع المساعدة في تحديد القطعة المناسبة حسب موديل الغسالة والعطل.',
+                    'خدمة نقل عفش الكويت للمنازل والشقق والفلل، مع توفير العمال وسيارات نقل العفش ونقل الأثاث من مكان إلى آخر داخل الكويت.',
 
                 'description_en' =>
-                    'We provide a variety of LG washing machine spare parts suitable for maintenance and repair, with assistance in identifying the right part based on the appliance model and fault.',
+                    'Professional furniture moving service in Kuwait for houses, apartments, and villas, with moving workers and suitable transportation.',
 
-                'image' => 'products/lg-washing-machine-parts.jpg',
+                'image' => 'products/furniture-moving.jpg',
 
                 'price' => null,
 
@@ -35,18 +35,18 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'name_ar' => 'كروت إلكترونية لغسالات LG',
-                'name_en' => 'LG Washing Machine Control Boards',
+                'name_ar' => 'نقل أثاث من بيت لبيت',
+                'name_en' => 'House to House Furniture Moving',
 
-                'slug' => 'lg-washing-machine-control-boards',
+                'slug' => 'house-to-house-furniture-moving',
 
                 'description_ar' =>
-                    'كروت ووحدات تحكم إلكترونية لغسالات LG، مع إمكانية المساعدة في تحديد الكارت المناسب حسب موديل الجهاز.',
+                    'نقل أثاث وعفش من بيت لبيت ومن منزل لمنزل داخل الكويت، مع التعامل مع غرف النوم والكنب والطاولات وجميع قطع الأثاث.',
 
                 'description_en' =>
-                    'Control boards and electronic modules for LG washing machines, with assistance in identifying the suitable board based on the appliance model.',
+                    'House-to-house and home-to-home furniture moving throughout Kuwait, including bedrooms, sofas, tables, and other furniture.',
 
-                'image' => 'products/lg-control-board.jpg',
+                'image' => 'products/house-moving.jpg',
 
                 'price' => null,
 
@@ -56,18 +56,18 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'name_ar' => 'طلمبات غسالات LG',
-                'name_en' => 'LG Washing Machine Drain Pumps',
+                'name_ar' => 'فك وتركيب غرف النوم',
+                'name_en' => 'Bedroom Dismantling & Assembly',
 
-                'slug' => 'lg-washing-machine-drain-pumps',
+                'slug' => 'bedroom-dismantling-assembly-kuwait',
 
                 'description_ar' =>
-                    'طلمبات صرف مناسبة لغسالات LG ضمن حلول وقطع الغيار المستخدمة في أعمال صيانة وإصلاح أعطال الصرف.',
+                    'خدمة فك وتركيب غرف النوم بالكويت، وتشمل الكبتات والسرائر والتسريحة وجميع قطع غرفة النوم قبل النقل وبعد الوصول.',
 
                 'description_en' =>
-                    'Suitable drain pumps for LG washing machines used in maintenance and repair of drainage-related problems.',
+                    'Professional bedroom dismantling and assembly in Kuwait, including wardrobes, beds, dressers, and bedroom furniture before and after moving.',
 
-                'image' => 'products/lg-drain-pump.jpg',
+                'image' => 'products/bedroom-moving.jpg',
 
                 'price' => null,
 
@@ -77,18 +77,18 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'name_ar' => 'موتورات غسالات LG',
-                'name_en' => 'LG Washing Machine Motors',
+                'name_ar' => 'نقل الكبتات والسرائر',
+                'name_en' => 'Wardrobe & Bed Moving',
 
-                'slug' => 'lg-washing-machine-motors',
+                'slug' => 'wardrobe-bed-moving-kuwait',
 
                 'description_ar' =>
-                    'موتورات وقطع مرتبطة بنظام تشغيل غسالات LG، مع تحديد القطعة المناسبة وفقًا لموديل الجهاز.',
+                    'نقل كبتات وسرائر وأثاث غرف النوم داخل الكويت، مع إمكانية فك وتركيب القطع الكبيرة وتجهيزها للنقل.',
 
                 'description_en' =>
-                    'Motors and related components for LG washing machines, with suitable parts identified according to the appliance model.',
+                    'Moving wardrobes, beds, and bedroom furniture throughout Kuwait, with dismantling and assembly for large furniture when required.',
 
-                'image' => 'products/lg-washing-machine-motor.jpg',
+                'image' => 'products/wardrobe-bed-moving.jpg',
 
                 'price' => null,
 
@@ -98,18 +98,18 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'name_ar' => 'جلود وأجزاء غسالات LG',
-                'name_en' => 'LG Washing Machine Seals & Components',
+                'name_ar' => 'تغليف العفش والأثاث',
+                'name_en' => 'Furniture & Belongings Packing',
 
-                'slug' => 'lg-washing-machine-seals-components',
+                'slug' => 'furniture-packing-kuwait',
 
                 'description_ar' =>
-                    'مجموعة من الجلود والأجزاء والمكونات المستخدمة في صيانة غسالات LG وإصلاح الأعطال المختلفة.',
+                    'لدينا قسم خاص لتغليف العفش والأثاث والأغراض قبل النقل للمساعدة في حمايتها أثناء التحميل والنقل والتنزيل.',
 
                 'description_en' =>
-                    'A range of seals, components, and parts used for LG washing machine maintenance and repair.',
+                    'Dedicated furniture and household belongings packing service to help protect items during loading, transportation, and unloading.',
 
-                'image' => 'products/lg-washing-machine-components.jpg',
+                'image' => 'products/furniture-packing.jpg',
 
                 'price' => null,
 
@@ -119,18 +119,18 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'name_ar' => 'قطع غيار أجهزة LG',
-                'name_en' => 'LG Appliance Spare Parts',
+                'name_ar' => 'نقل أغراض البيت والمكاتب والمخازن',
+                'name_en' => 'Household, Office & Warehouse Moving',
 
-                'slug' => 'lg-appliance-spare-parts',
+                'slug' => 'household-office-warehouse-moving',
 
                 'description_ar' =>
-                    'قطع غيار وحلول متنوعة لأجهزة LG، ويتم تحديد القطعة المناسبة بناءً على نوع الجهاز والموديل والعطل.',
+                    'نقل أغراض البيت والأثاث المستعمل والمكاتب والمخازن والخيام داخل الكويت، مع توفير العمال وسيارات النقل حسب حجم ونوع المنقولات.',
 
                 'description_en' =>
-                    'Various spare parts and solutions for LG appliances, with the suitable part identified based on the appliance type, model, and fault.',
+                    'Moving household belongings, used furniture, offices, warehouses, and tents throughout Kuwait, with workers and transportation according to the size and type of items.',
 
-                'image' => 'products/lg-spare-parts.jpg',
+                'image' => 'products/office-warehouse-moving.jpg',
 
                 'price' => null,
 

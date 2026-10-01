@@ -67,13 +67,12 @@
                         {{ app()->getLocale() === 'ar' ? 'خدماتنا' : 'SERVICES' }}
                     </a>
 
-
-                    <a
-                        href="{{ route('products') }}"
-                        class="nav-link {{ request()->routeIs('products*') ? 'active' : '' }}"
-                    >
-                        {{ app()->getLocale() === 'ar' ? 'منتجاتنا' : 'PRODUCTS' }}
-                    </a>
+<a
+    href="{{ route('products') }}"
+    class="nav-link {{ request()->routeIs('products*') ? 'active' : '' }}"
+>
+    {{ app()->getLocale() === 'ar' ? 'اطلب خدمتك' : 'REQUEST YOUR SERVICE' }}
+</a>
 
 
                     <a

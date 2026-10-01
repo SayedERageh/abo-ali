@@ -5,19 +5,19 @@
     @php
         $isArabic = app()->getLocale() === 'ar';
 
-        $productName = $isArabic
+        $serviceName = $isArabic
             ? $product->name_ar
             : $product->name_en;
 
-        $productDescription = $isArabic
+        $serviceDescription = $isArabic
             ? $product->description_ar
             : $product->description_en;
 
-        $whatsappNumber = '201025509311';
+        $whatsappNumber = '96560656190';
 
         $message = $isArabic
-            ? "السلام عليكم، أريد الاستفسار عن المنتج: {$productName}"
-            : "Hello, I would like to inquire about: {$productName}";
+            ? "السلام عليكم، أريد طلب خدمة: {$serviceName}"
+            : "Hello, I would like to request the service: {$serviceName}";
 
         $whatsappUrl =
             'https://wa.me/' .
@@ -28,11 +28,11 @@
 
 
     {{-- Page Hero --}}
-    <section class="product-detail-hero">
+    <section class="service-detail-hero">
 
         <div class="container">
 
-            <div class="product-detail-breadcrumb">
+            <div class="service-detail-breadcrumb">
 
                 <a href="{{ route('home') }}">
                     {{ $isArabic ? 'الرئيسية' : 'HOME' }}
@@ -41,12 +41,12 @@
                 <i class="bi bi-chevron-left"></i>
 
                 <a href="{{ route('products') }}">
-                    {{ $isArabic ? 'المنتجات' : 'PRODUCTS' }}
+                    {{ $isArabic ? 'خدماتنا' : 'SERVICES' }}
                 </a>
 
                 <i class="bi bi-chevron-left"></i>
 
-                <span>{{ $productName }}</span>
+                <span>{{ $serviceName }}</span>
 
             </div>
 
@@ -55,30 +55,30 @@
     </section>
 
 
-    {{-- Product Details --}}
-    <section class="product-detail-section section-padding">
+    {{-- Service Details --}}
+    <section class="service-detail-section section-padding">
 
         <div class="container">
 
             <div class="row g-5 align-items-start">
 
-                {{-- Product Image --}}
+                {{-- Service Image --}}
                 <div class="col-lg-6">
 
-                    <div class="product-detail-image">
+                    <div class="service-detail-image">
 
                         @if($product->image)
 
                             <img
                                 src="{{ asset('storage/' . $product->image) }}"
-                                alt="{{ $productName }}"
+                                alt="{{ $serviceName }}"
                             >
 
                         @else
 
-                            <div class="product-detail-placeholder">
+                            <div class="service-detail-placeholder">
 
-                                <i class="bi bi-box-seam"></i>
+                                <i class="bi bi-truck"></i>
 
                             </div>
 
@@ -89,89 +89,57 @@
                 </div>
 
 
-                {{-- Product Info --}}
+                {{-- Service Info --}}
                 <div class="col-lg-6">
 
-                    <div class="product-detail-content">
+                    <div class="service-detail-content">
 
-                        <span class="product-detail-kicker">
-                            {{ $isArabic ? 'منتج من منتجاتنا' : 'OUR PRODUCT' }}
+                        <span class="service-detail-kicker">
+                            {{ $isArabic ? 'خدمة من خدماتنا' : 'OUR SERVICE' }}
                         </span>
 
 
                         <h1>
-                            {{ $productName }}
+                            {{ $serviceName }}
                         </h1>
 
 
-                        @if($productDescription)
+                        @if($serviceDescription)
 
-                            <div class="product-detail-description">
+                            <div class="service-detail-description">
 
-                                {!! nl2br(e($productDescription)) !!}
-
-                            </div>
-
-                        @endif
-
-
-                        {{-- Price --}}
-                        @if($product->price)
-
-                            <div class="product-detail-price">
-
-                                <span>
-                                    {{ number_format($product->price, 0) }}
-                                </span>
-
-                                <small>
-                                    {{ $isArabic ? 'جنيه' : 'EGP' }}
-                                </small>
-
-                            </div>
-
-                        @else
-
-                            <div class="product-detail-inquiry">
-
-                                <i class="bi bi-tag"></i>
-
-                                <span>
-                                    {{ $isArabic
-                                        ? 'للاستفسار عن السعر تواصل معنا'
-                                        : 'Contact us for price' }}
-                                </span>
+                                {!! nl2br(e($serviceDescription)) !!}
 
                             </div>
 
                         @endif
 
 
-                        {{-- WhatsApp --}}
+                        {{-- Main CTA --}}
                         <a
                             href="{{ $whatsappUrl }}"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="product-detail-whatsapp"
+                            class="service-detail-whatsapp"
                         >
 
                             <i class="bi bi-whatsapp"></i>
 
                             <span>
                                 {{ $isArabic
-                                    ? 'استفسر عن المنتج عبر واتساب'
-                                    : 'Inquire via WhatsApp' }}
+                                    ? 'اطلب خدمتك الآن'
+                                    : 'Request Your Service Now' }}
                             </span>
 
                         </a>
 
 
-                        {{-- Contact --}}
+                        {{-- Phone --}}
                         @if($company->phone)
 
                             <a
                                 href="tel:{{ $company->phone }}"
-                                class="product-detail-phone"
+                                class="service-detail-phone"
                             >
 
                                 <i class="bi bi-telephone"></i>
@@ -179,7 +147,7 @@
                                 <span>
                                     {{ $isArabic
                                         ? 'أو اتصل بنا'
-                                        : 'Or call us' }}
+                                        : 'Or Call Us' }}
                                 </span>
 
                                 <strong>
@@ -191,74 +159,73 @@
                         @endif
 
 
-                        {{-- Product Features --}}
-                        <div class="product-detail-features">
+                        {{-- Service Features --}}
+                        <div class="service-detail-features">
 
-                            <div class="product-feature">
+                            <div class="service-feature">
 
-                                <div class="product-feature-icon">
-                                    <i class="bi bi-award"></i>
-                                </div>
-
-                                <div>
-                                    <strong>
-                                        {{ $isArabic
-                                            ? 'جودة عالية'
-                                            : 'High Quality' }}
-                                    </strong>
-
-                                    <span>
-                                        {{ $isArabic
-                                            ? 'منتجات موثوقة لمزارع الدواجن'
-                                            : 'Reliable products for poultry farms' }}
-                                    </span>
-                                </div>
-
-                            </div>
-
-
-                            <div class="product-feature">
-
-                                <div class="product-feature-icon">
+                                <div class="service-feature-icon">
                                     <i class="bi bi-truck"></i>
                                 </div>
 
                                 <div>
                                     <strong>
                                         {{ $isArabic
-                                            ? 'توفير وتوريد'
-                                            : 'Supply & Delivery' }}
+                                            ? 'نقل داخل الكويت'
+                                            : 'Moving Across Kuwait' }}
                                     </strong>
 
                                     <span>
                                         {{ $isArabic
-                                            ? 'مخزون واسع وسرعة في التوريد'
-                                            : 'Wide stock and fast supply' }}
+                                            ? 'نقل العفش والأثاث والأغراض داخل الكويت'
+                                            : 'Furniture and belongings moving across Kuwait' }}
                                     </span>
                                 </div>
 
                             </div>
 
 
-                            <div class="product-feature">
+                            <div class="service-feature">
 
-                                <div class="product-feature-icon">
-                                    <i class="bi bi-headset"></i>
+                                <div class="service-feature-icon">
+                                    <i class="bi bi-tools"></i>
                                 </div>
 
                                 <div>
                                     <strong>
                                         {{ $isArabic
-                                            ? 'دعم ما بعد البيع'
-                                            : 'After-Sales Support' }}
+                                            ? 'فك وتركيب'
+                                            : 'Dismantling & Assembly' }}
                                     </strong>
 
                                     <span>
                                         {{ $isArabic
-                                            ? 'دعم ومتابعة مستمرة'
-                                            : 'Continuous support and follow-up' }}
+                                            ? 'فك وتركيب غرف النوم والكبتات والسرائر'
+                                            : 'Bedrooms, wardrobes and beds dismantling and assembly' }}
                                     </span>
+                                </div>
 
+                            </div>
+
+
+                            <div class="service-feature">
+
+                                <div class="service-feature-icon">
+                                    <i class="bi bi-people"></i>
+                                </div>
+
+                                <div>
+                                    <strong>
+                                        {{ $isArabic
+                                            ? 'عمال متخصصون'
+                                            : 'Experienced Workers' }}
+                                    </strong>
+
+                                    <span>
+                                        {{ $isArabic
+                                            ? 'عمال لنقل وتحميل وتفريغ العفش'
+                                            : 'Experienced workers for loading and moving furniture' }}
+                                    </span>
                                 </div>
 
                             </div>
@@ -276,57 +243,57 @@
     </section>
 
 
-    {{-- Other Products --}}
+    {{-- Other Services --}}
     @if(isset($products) && $products->where('id', '!=', $product->id)->isNotEmpty())
 
-        <section class="related-products section-padding">
+        <section class="related-services section-padding">
 
             <div class="container">
 
                 <div class="section-heading text-center">
 
                     <span class="section-kicker">
-                        {{ $isArabic ? 'منتجات أخرى' : 'OTHER PRODUCTS' }}
+                        {{ $isArabic ? 'خدماتنا الأخرى' : 'OTHER SERVICES' }}
                     </span>
 
                     <h2 class="section-title">
                         {{ $isArabic
-                            ? 'منتجات قد تهمك'
-                            : 'You May Also Like' }}
+                            ? 'اكتشف خدمات نقل العفش'
+                            : 'Explore Our Moving Services' }}
                     </h2>
 
                 </div>
 
 
-                <div class="products-grid">
+                <div class="services-grid">
 
-                    @foreach($products->where('id', '!=', $product->id)->take(3) as $relatedProduct)
+                    @foreach($products->where('id', '!=', $product->id)->take(3) as $relatedService)
 
                         @php
                             $relatedName = $isArabic
-                                ? $relatedProduct->name_ar
-                                : $relatedProduct->name_en;
+                                ? $relatedService->name_ar
+                                : $relatedService->name_en;
                         @endphp
 
-                        <article class="product-card">
+                        <article class="service-card">
 
                             <a
-                                href="{{ route('products.show', $relatedProduct->slug) }}"
-                                class="product-image"
+                                href="{{ route('products.show', $relatedService->slug) }}"
+                                class="service-image"
                             >
 
-                                @if($relatedProduct->image)
+                                @if($relatedService->image)
 
                                     <img
-                                        src="{{ asset('storage/' . $relatedProduct->image) }}"
+                                        src="{{ asset('storage/' . $relatedService->image) }}"
                                         alt="{{ $relatedName }}"
                                         loading="lazy"
                                     >
 
                                 @else
 
-                                    <div class="product-placeholder">
-                                        <i class="bi bi-box-seam"></i>
+                                    <div class="service-placeholder">
+                                        <i class="bi bi-truck"></i>
                                     </div>
 
                                 @endif
@@ -334,25 +301,27 @@
                             </a>
 
 
-                            <div class="product-content">
+                            <div class="service-content">
 
                                 <h3>
 
-                                    <a href="{{ route('products.show', $relatedProduct->slug) }}">
+                                    <a href="{{ route('products.show', $relatedService->slug) }}">
                                         {{ $relatedName }}
                                     </a>
 
                                 </h3>
 
                                 <a
-                                    href="{{ route('products.show', $relatedProduct->slug) }}"
-                                    class="product-details-link"
+                                    href="{{ route('products.show', $relatedService->slug) }}"
+                                    class="service-details-link"
                                 >
+
                                     {{ $isArabic
-                                        ? 'عرض التفاصيل'
-                                        : 'View Details' }}
+                                        ? 'عرض الخدمة'
+                                        : 'View Service' }}
 
                                     <i class="bi bi-arrow-left"></i>
+
                                 </a>
 
                             </div>
@@ -368,18 +337,21 @@
         </section>
 
     @endif
+
+
 <style>
-    /* ==========================================
-   Product Details
+
+/* ==========================================
+   SERVICE DETAILS
 ========================================== */
 
-.product-detail-hero {
+.service-detail-hero {
     padding: 35px 0;
     background: #f8fafc;
-    border-bottom: 1px solid #e9eef2;
+    border-bottom: 1px solid #e2e8f0;
 }
 
-.product-detail-breadcrumb {
+.service-detail-breadcrumb {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -388,42 +360,42 @@
     font-size: 14px;
 }
 
-.product-detail-breadcrumb a {
-    color: #198754;
+.service-detail-breadcrumb a {
+    color: #0b5ed7;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 
-.product-detail-breadcrumb i {
+.service-detail-breadcrumb i {
     font-size: 11px;
     color: #cbd5e1;
 }
 
-.product-detail-breadcrumb span {
+.service-detail-breadcrumb span {
     color: #64748b;
 }
 
 
 /* Image */
 
-.product-detail-image {
+.service-detail-image {
     width: 100%;
     height: 520px;
     overflow: hidden;
     border-radius: 22px;
-    background: #f1f5f9;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, .07);
+    background: #eef4f8;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, .08);
 }
 
-.product-detail-image img {
+.service-detail-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.product-detail-placeholder {
+.service-detail-placeholder {
     width: 100%;
     height: 100%;
     display: flex;
@@ -431,7 +403,7 @@
     justify-content: center;
 }
 
-.product-detail-placeholder i {
+.service-detail-placeholder i {
     font-size: 100px;
     color: #94a3b8;
 }
@@ -439,78 +411,40 @@
 
 /* Content */
 
-.product-detail-content {
+.service-detail-content {
     padding: 15px 0;
 }
 
-.product-detail-kicker {
+.service-detail-kicker {
     display: inline-block;
     margin-bottom: 15px;
-    color: #198754;
+    color: #0b5ed7;
     font-size: 14px;
     font-weight: 800;
     letter-spacing: 1px;
 }
 
-.product-detail-content h1 {
+.service-detail-content h1 {
     margin: 0 0 25px;
-    color: #172033;
+    color: #12304a;
     font-size: clamp(32px, 4vw, 48px);
     line-height: 1.3;
     font-weight: 800;
 }
 
-.product-detail-description {
+.service-detail-description {
     color: #64748b;
     font-size: 17px;
     line-height: 2;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 
-/* Price */
+/* WhatsApp CTA */
 
-.product-detail-price {
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
-    margin-bottom: 25px;
-    color: #198754;
-}
-
-.product-detail-price span {
-    font-size: 32px;
-    font-weight: 800;
-}
-
-.product-detail-price small {
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.product-detail-inquiry {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 25px;
-    padding: 15px 18px;
-    background: #f0fdf4;
-    border: 1px solid #dcfce7;
-    border-radius: 10px;
-    color: #166534;
-    font-weight: 600;
-}
-
-.product-detail-inquiry i {
-    font-size: 20px;
-}
-
-
-/* WhatsApp */
-
-.product-detail-whatsapp {
+.service-detail-whatsapp {
     width: 100%;
-    min-height: 58px;
+    min-height: 60px;
 
     display: flex;
     align-items: center;
@@ -519,33 +453,33 @@
 
     padding: 15px 25px;
 
-    border-radius: 11px;
+    border-radius: 12px;
 
     background: #198754;
     color: #fff !important;
 
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 800;
 
     text-decoration: none !important;
 
     transition: .3s ease;
 }
 
-.product-detail-whatsapp:hover {
+.service-detail-whatsapp:hover {
     background: #146c43;
     transform: translateY(-2px);
     color: #fff !important;
 }
 
-.product-detail-whatsapp i {
-    font-size: 23px;
+.service-detail-whatsapp i {
+    font-size: 24px;
 }
 
 
 /* Phone */
 
-.product-detail-phone {
+.service-detail-phone {
     margin-top: 12px;
 
     display: flex;
@@ -553,10 +487,10 @@
     justify-content: center;
     gap: 8px;
 
-    min-height: 50px;
+    min-height: 52px;
 
-    border: 1px solid #e2e8f0;
-    border-radius: 10px;
+    border: 1px solid #dbe4ec;
+    border-radius: 11px;
 
     color: #475569;
     text-decoration: none;
@@ -566,35 +500,35 @@
     transition: .3s ease;
 }
 
-.product-detail-phone:hover {
-    border-color: #198754;
-    color: #198754;
+.service-detail-phone:hover {
+    border-color: #0b5ed7;
+    color: #0b5ed7;
 }
 
-.product-detail-phone i {
-    color: #198754;
+.service-detail-phone i {
+    color: #0b5ed7;
 }
 
 
 /* Features */
 
-.product-detail-features {
+.service-detail-features {
     margin-top: 30px;
     padding-top: 25px;
-    border-top: 1px solid #e5e7eb;
+    border-top: 1px solid #e2e8f0;
 
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.product-feature {
+.service-feature {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.product-feature-icon {
+.service-feature-icon {
     width: 48px;
     height: 48px;
 
@@ -606,58 +540,128 @@
 
     border-radius: 10px;
 
-    background: #eef8f3;
-    color: #198754;
+    background: #eaf4ff;
+    color: #0b5ed7;
 
     font-size: 21px;
 }
 
-.product-feature strong {
+.service-feature strong {
     display: block;
     margin-bottom: 3px;
-    color: #172033;
+    color: #12304a;
     font-size: 15px;
 }
 
-.product-feature span {
+.service-feature span {
     display: block;
     color: #64748b;
     font-size: 13px;
 }
 
 
-/* Related Products */
+/* Related Services */
 
-.related-products {
+.related-services {
     background: #f8fafc;
 }
 
-.related-products .section-heading {
+.related-services .section-heading {
     margin-bottom: 40px;
 }
 
-.product-details-link {
+.service-card {
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, .05);
+    transition: .3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, .09);
+}
+
+.service-image {
+    display: block;
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    background: #eef4f8;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .4s ease;
+}
+
+.service-card:hover .service-image img {
+    transform: scale(1.05);
+}
+
+.service-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-placeholder i {
+    font-size: 65px;
+    color: #94a3b8;
+}
+
+.service-content {
+    padding: 22px;
+}
+
+.service-content h3 {
+    margin: 0 0 15px;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.service-content h3 a {
+    color: #12304a;
+    text-decoration: none;
+}
+
+.service-details-link {
     display: inline-flex;
     align-items: center;
     gap: 7px;
 
-    color: #198754;
+    color: #0b5ed7;
     text-decoration: none;
 
     font-size: 14px;
     font-weight: 700;
 }
 
-.product-details-link:hover {
-    color: #146c43;
+.service-details-link:hover {
+    color: #084298;
 }
 
-.product-details-link i {
+.service-details-link i {
     transition: transform .3s ease;
 }
 
-.product-details-link:hover i {
+.service-details-link:hover i {
     transform: translateX(-4px);
+}
+
+
+/* Grid */
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 
 
@@ -665,35 +669,41 @@
 
 @media (max-width: 991px) {
 
-    .product-detail-image {
+    .service-detail-image {
         height: 450px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
 
 @media (max-width: 575px) {
 
-    .product-detail-hero {
+    .service-detail-hero {
         padding: 25px 0;
     }
 
-    .product-detail-image {
+    .service-detail-image {
         height: 320px;
         border-radius: 15px;
     }
 
-    .product-detail-content h1 {
+    .service-detail-content h1 {
         font-size: 30px;
     }
 
-    .product-detail-description {
+    .service-detail-description {
         font-size: 15px;
     }
 
-    .product-detail-price span {
-        font-size: 27px;
+    .services-grid {
+        grid-template-columns: 1fr;
     }
 
 }
+
 </style>
+
 @endsection

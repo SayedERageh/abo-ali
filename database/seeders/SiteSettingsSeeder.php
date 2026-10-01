@@ -19,26 +19,26 @@ class SiteSettingsSeeder extends Seeder
         SiteSetting::updateOrCreate(
             ['id' => 1],
             [
-                'site_name' => 'Senior LG Maintenance & Spare Parts',
+                'site_name' => 'نقل عفش الكويت',
 
-                'primary_color' => '#A50034',
-                'primary_dark_color' => '#7D0028',
+                'primary_color' => '#0B5ED7',
+                'primary_dark_color' => '#084298',
 
-                'secondary_color' => '#1F1F1F',
-                'secondary_dark_color' => '#111111',
+                'secondary_color' => '#12304A',
+                'secondary_dark_color' => '#081D2D',
 
-                'light_blue_color' => '#FCEEF2',
-                'light_color' => '#FAFAFA',
+                'light_blue_color' => '#EAF4FF',
+                'light_color' => '#F8FAFC',
 
                 'white_color' => '#FFFFFF',
 
-                'text_color' => '#222222',
-                'muted_color' => '#6B6B6B',
+                'text_color' => '#1F2937',
+                'muted_color' => '#64748B',
 
-                'border_color' => '#E5E5E5',
+                'border_color' => '#E2E8F0',
 
                 'site_description' =>
-                    'سنيور لصيانة وقطع غيار LG، متخصصون في صيانة وإصلاح غسالات LG وتوفير قطع الغيار المناسبة، مع سرعة الاستجابة وجودة الخدمة.',
+                    'نقل عفش الكويت لخدمات نقل الأثاث والأغراض داخل الكويت، مع فك وتركيب العفش وغرف النوم والكبتات والسرائر وتغليف الأثاث وتوفير العمال وسيارات نقل العفش.',
             ]
         );
 
@@ -59,34 +59,34 @@ class SiteSettingsSeeder extends Seeder
 
             'home' => [
                 'title_ar' =>
-                    'سنيور لصيانة وقطع غيار LG | صيانة غسالات LG',
+                    'نقل عفش الكويت | نقل أثاث وأغراض داخل الكويت',
 
                 'title_en' =>
-                    'Senior LG Maintenance & Spare Parts | LG Washing Machine Repair',
+                    'Kuwait Furniture Moving | Furniture & Belongings Moving',
 
                 'description_ar' =>
-                    'سنيور لصيانة وقطع غيار LG متخصص في صيانة وإصلاح غسالات LG وتشخيص الأعطال وتوفير قطع الغيار المناسبة، مع سرعة الاستجابة وخدمة صيانة احترافية.',
+                    'نقل عفش الكويت لخدمات نقل عفش وأثاث وأغراض داخل الكويت، من بيت لبيت ومن شقة لشقة، مع فك وتركيب العفش وغرف النوم والكبتات وتغليف الأثاث وتوفير العمال والسيارات.',
 
                 'description_en' =>
-                    'Senior LG Maintenance & Spare Parts specializes in LG washing machine maintenance, repair, fault diagnosis, and spare parts supply with fast and professional service.',
+                    'Kuwait Furniture Moving provides furniture, household and belongings moving services across Kuwait, including house-to-house and apartment-to-apartment moving, dismantling, packing and assembly.',
 
                 'keywords_ar' =>
-                    'سنيور لصيانة LG, صيانة غسالات LG, تصليح غسالات LG, مركز صيانة LG, فني غسالات LG, قطع غيار LG, قطع غيار غسالات LG, أعطال غسالات LG',
+                    'نقل عفش الكويت, نقل اثاث الكويت, نقل أثاث الكويت, نقل العفش الكويت, نقل الأثاث الكويت, نقل أغراض الكويت, نقل اغراض الكويت, نقل عفش داخل الكويت, نقل أثاث داخل الكويت, نقل عفش داخل المنزل, نقل أثاث داخل المنزل, فك وتركيب عفش الكويت, فك وتركيب أثاث الكويت, نقل غرف نوم الكويت, نقل كبتات الكويت',
 
                 'keywords_en' =>
-                    'Senior LG maintenance, LG washing machine maintenance, LG washing machine repair, LG service, LG technician, LG spare parts, LG washing machine spare parts',
+                    'furniture moving Kuwait, furniture movers Kuwait, house moving Kuwait, household moving Kuwait, furniture transportation Kuwait, moving company Kuwait, furniture dismantling Kuwait, furniture assembly Kuwait',
 
                 'og_title_ar' =>
-                    'سنيور لصيانة وقطع غيار LG | صيانة غسالات LG',
+                    'نقل عفش الكويت | نقل أثاث وأغراض داخل الكويت',
 
                 'og_title_en' =>
-                    'Senior LG Maintenance & Spare Parts',
+                    'Kuwait Furniture Moving',
 
                 'og_description_ar' =>
-                    'صيانة وإصلاح غسالات LG وتوفير قطع الغيار المناسبة مع سرعة الاستجابة وخدمة احترافية.',
+                    'خدمات نقل عفش وأثاث وأغراض داخل الكويت مع فك وتركيب وتغليف العفش وتوفير العمال وسيارات نقل الأثاث.',
 
                 'og_description_en' =>
-                    'Professional LG washing machine maintenance, repair, and spare parts services with fast response.',
+                    'Professional furniture, household and belongings moving services across Kuwait with dismantling, packing, transportation and assembly.',
             ],
 
 
@@ -98,34 +98,34 @@ class SiteSettingsSeeder extends Seeder
 
             'about' => [
                 'title_ar' =>
-                    'من نحن | سنيور لصيانة وقطع غيار LG',
+                    'من نحن | نقل عفش الكويت',
 
                 'title_en' =>
-                    'About Us | Senior LG Maintenance',
+                    'About Us | Kuwait Furniture Moving',
 
                 'description_ar' =>
-                    'تعرف على سنيور لصيانة وقطع غيار LG وخدماتنا في صيانة وإصلاح غسالات LG وتشخيص الأعطال وتوفير قطع الغيار المناسبة.',
+                    'تعرف على نقل عفش الكويت وخدماتنا في نقل الأثاث والعفش والأغراض داخل الكويت، مع خدمات الفك والتركيب والتغليف ونقل غرف النوم والكبتات والسرائر.',
 
                 'description_en' =>
-                    'Learn more about Senior LG Maintenance and our services for LG washing machine maintenance, repair, fault diagnosis, and spare parts.',
+                    'Learn more about Kuwait Furniture Moving and our furniture, household belongings, dismantling, packing, transportation and assembly services.',
 
                 'keywords_ar' =>
-                    'من نحن, سنيور LG, سنيور للصيانة, صيانة LG, صيانة غسالات LG, قطع غيار LG',
+                    'من نحن, نقل عفش الكويت, نقل أثاث الكويت, شركة نقل عفش الكويت, شركة نقل أثاث الكويت, خدمات نقل العفش الكويت, عمال نقل عفش الكويت',
 
                 'keywords_en' =>
-                    'about Senior LG, Senior maintenance, LG maintenance, LG washing machine repair, LG spare parts',
+                    'about furniture moving Kuwait, Kuwait furniture moving company, furniture moving services Kuwait, household movers Kuwait',
 
                 'og_title_ar' =>
-                    'من نحن - سنيور لصيانة وقطع غيار LG',
+                    'من نحن - نقل عفش الكويت',
 
                 'og_title_en' =>
-                    'About Senior LG Maintenance',
+                    'About Kuwait Furniture Moving',
 
                 'og_description_ar' =>
-                    'تعرف على خدمات سنيور في صيانة وإصلاح غسالات LG وتوفير قطع الغيار.',
+                    'تعرف على خدمات نقل عفش الكويت لنقل الأثاث والعفش والأغراض داخل الكويت.',
 
                 'og_description_en' =>
-                    'Learn about Senior LG maintenance, repair, and spare parts services.',
+                    'Learn about our furniture, household and belongings moving services across Kuwait.',
             ],
 
 
@@ -137,34 +137,34 @@ class SiteSettingsSeeder extends Seeder
 
             'services' => [
                 'title_ar' =>
-                    'خدمات صيانة LG | سنيور لصيانة غسالات LG',
+                    'خدمات نقل العفش والأثاث الكويت | نقل عفش الكويت',
 
                 'title_en' =>
-                    'LG Maintenance Services | Senior',
+                    'Furniture Moving Services Kuwait',
 
                 'description_ar' =>
-                    'اكتشف خدمات سنيور لصيانة غسالات LG، بداية من كشف وتشخيص الأعطال وإصلاح الغسالات وحتى توفير قطع الغيار وخدمة الصيانة السريعة.',
+                    'اكتشف خدمات نقل عفش الكويت، وتشمل نقل الأثاث والأغراض، فك وتركيب العفش، فك وتركيب غرف النوم والكبتات، تغليف الأثاث، ونقل المنازل والشقق والمكاتب والمخازن داخل الكويت.',
 
                 'description_en' =>
-                    'Explore Senior LG maintenance services, including fault diagnosis, washing machine repair, spare parts supply, and fast maintenance service.',
+                    'Explore our furniture moving services in Kuwait, including furniture transportation, dismantling and assembly, bedroom and wardrobe moving, packing, and household, office and warehouse moving.',
 
                 'keywords_ar' =>
-                    'خدمات صيانة LG, صيانة غسالات LG, إصلاح غسالات LG, كشف أعطال LG, تشخيص أعطال LG, قطع غيار LG',
+                    'خدمات نقل العفش الكويت, خدمات نقل الأثاث الكويت, نقل عفش الكويت, نقل أثاث الكويت, فك وتركيب عفش الكويت, فك وتركيب أثاث الكويت, فك وتركيب غرف نوم الكويت, فك وتركيب كبتات الكويت, نقل غرف نوم الكويت, نقل كبتات الكويت, نقل أغراض الكويت',
 
                 'keywords_en' =>
-                    'LG maintenance services, LG washing machine repair, LG fault diagnosis, LG spare parts, LG service',
+                    'furniture moving services Kuwait, furniture transportation Kuwait, furniture dismantling Kuwait, furniture assembly Kuwait, bedroom moving Kuwait, wardrobe moving Kuwait',
 
                 'og_title_ar' =>
-                    'خدماتنا - صيانة وإصلاح غسالات LG',
+                    'خدماتنا - نقل عفش وأثاث الكويت',
 
                 'og_title_en' =>
-                    'Our LG Maintenance Services',
+                    'Our Furniture Moving Services',
 
                 'og_description_ar' =>
-                    'خدمات متكاملة لصيانة وإصلاح غسالات LG وتوفير قطع الغيار المناسبة.',
+                    'خدمات نقل العفش والأثاث والأغراض داخل الكويت مع الفك والتركيب والتغليف والنقل.',
 
                 'og_description_en' =>
-                    'Complete LG washing machine maintenance, repair, and spare parts services.',
+                    'Furniture, household and belongings moving services across Kuwait with dismantling, packing and assembly.',
             ],
 
 
@@ -176,34 +176,34 @@ class SiteSettingsSeeder extends Seeder
 
             'projects' => [
                 'title_ar' =>
-                    'أعمال صيانة غسالات LG | سنيور',
+                    'أعمال نقل العفش والأثاث | نقل عفش الكويت',
 
                 'title_en' =>
-                    'LG Maintenance Projects | Senior',
+                    'Furniture Moving Projects | Kuwait',
 
                 'description_ar' =>
-                    'تعرف على نماذج من أعمال وخدمات سنيور في صيانة وإصلاح غسالات LG وتوفير قطع الغيار وحلول الأعطال المختلفة.',
+                    'تعرف على نماذج من أعمال نقل عفش الكويت في نقل العفش من بيت لبيت، ونقل الأثاث من شقة لشقة، وفك وتركيب غرف النوم والكبتات، وتغليف ونقل الأغراض والمكاتب والمخازن.',
 
                 'description_en' =>
-                    'Explore examples of Senior LG maintenance and repair services, spare parts supply, and solutions for various washing machine faults.',
+                    'Explore examples of furniture moving projects in Kuwait, including house-to-house moving, apartment-to-apartment moving, dismantling, packing, and office and warehouse transportation.',
 
                 'keywords_ar' =>
-                    'أعمال صيانة LG, صيانة غسالات, إصلاح غسالات LG, أعطال LG, قطع غيار غسالات LG, سنيور LG',
+                    'أعمال نقل عفش الكويت, نقل عفش من بيت لبيت, نقل أثاث من بيت لبيت, نقل عفش من شقة لشقة, نقل أثاث من شقة لشقة, فك وتركيب غرف النوم, نقل الكبتات, نقل أثاث مستعمل, نقل أغراض الكويت',
 
                 'keywords_en' =>
-                    'LG maintenance projects, LG washing machine repair, LG faults, LG spare parts, Senior LG',
+                    'furniture moving projects Kuwait, house to house furniture moving, apartment moving Kuwait, bedroom moving Kuwait, office moving Kuwait, warehouse moving Kuwait',
 
                 'og_title_ar' =>
-                    'أعمالنا - صيانة غسالات LG',
+                    'أعمالنا - نقل عفش وأثاث الكويت',
 
                 'og_title_en' =>
-                    'Our LG Maintenance Work',
+                    'Our Furniture Moving Work',
 
                 'og_description_ar' =>
-                    'نماذج من خدمات صيانة وإصلاح غسالات LG التي نقدمها لعملائنا.',
+                    'نماذج من خدمات نقل العفش والأثاث والأغراض التي نقدمها داخل الكويت.',
 
                 'og_description_en' =>
-                    'Examples of our LG washing machine maintenance and repair services.',
+                    'Examples of our furniture, household, office and warehouse moving services in Kuwait.',
             ],
 
 
@@ -215,34 +215,34 @@ class SiteSettingsSeeder extends Seeder
 
             'contact' => [
                 'title_ar' =>
-                    'تواصل معنا | سنيور لصيانة وقطع غيار LG',
+                    'تواصل معنا | نقل عفش الكويت',
 
                 'title_en' =>
-                    'Contact Us | Senior LG Maintenance',
+                    'Contact Us | Kuwait Furniture Moving',
 
                 'description_ar' =>
-                    'تواصل مع سنيور لصيانة وقطع غيار LG لحجز خدمة صيانة غسالتك أو الاستفسار عن الأعطال وقطع الغيار المناسبة.',
+                    'تواصل مع نقل عفش الكويت لطلب نقل عفش أو أثاث أو أغراض داخل الكويت، أو حجز خدمة فك وتركيب وتغليف ونقل الأثاث.',
 
                 'description_en' =>
-                    'Contact Senior LG Maintenance to request washing machine maintenance or inquire about LG faults and suitable spare parts.',
+                    'Contact Kuwait Furniture Moving to request furniture, household or belongings moving services, including dismantling, packing and assembly.',
 
                 'keywords_ar' =>
-                    'رقم صيانة LG, تواصل مع سنيور, صيانة غسالات LG, حجز صيانة LG, قطع غيار LG',
+                    'رقم نقل عفش الكويت, تواصل معنا نقل عفش الكويت, طلب نقل عفش, أبي نقل عفش, ابي نقل عفش, أبي سيارة نقل عفش, ابي سيارة نقل عفش, أبي عمال نقل عفش, ابي عمال نقل عفش',
 
                 'keywords_en' =>
-                    'LG maintenance contact, Senior LG contact, LG washing machine service, LG spare parts',
+                    'Kuwait furniture moving contact, furniture movers Kuwait contact, house moving Kuwait, furniture transportation Kuwait',
 
                 'og_title_ar' =>
-                    'تواصل معنا - سنيور لصيانة وقطع غيار LG',
+                    'تواصل معنا - نقل عفش الكويت',
 
                 'og_title_en' =>
-                    'Contact Senior LG Maintenance',
+                    'Contact Kuwait Furniture Moving',
 
                 'og_description_ar' =>
-                    'اتصل بنا لحجز صيانة غسالة LG أو الاستفسار عن قطع الغيار والخدمات المتاحة.',
+                    'اطلب نقل عفش أو أثاث أو أغراض داخل الكويت وتواصل معنا لمعرفة تفاصيل الخدمة.',
 
                 'og_description_en' =>
-                    'Contact us to request LG washing machine maintenance or inquire about spare parts and available services.',
+                    'Contact us to request furniture, household and belongings moving services across Kuwait.',
             ],
         ];
 

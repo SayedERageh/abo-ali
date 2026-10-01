@@ -12,111 +12,180 @@ class CompanySettingSeeder extends Seeder
         CompanySetting::updateOrCreate(
             ['id' => 1],
             [
-                'company_name_en' => 'Senior LG Maintenance & Spare Parts',
-                'company_name_ar' => 'سنيور لصيانة وقطع غيار LG',
+                'company_name_en' => 'Kuwait Furniture Moving',
+                'company_name_ar' => 'نقل عفش الكويت',
 
-                'email' => 'info@senior-lg.com',
-                'phone' => '01025509311',
-                'whatsapp' => '01025509311',
+                'email' => 'info@naqlfshkuwait.com',
+                'phone' => '+96560656190',
+                'whatsapp' => '+96560656190',
 
                 'about_en' => <<<'TEXT'
-Senior LG Maintenance & Spare Parts specializes in the maintenance, repair, and servicing of LG home appliances.
+Kuwait Furniture Moving provides professional furniture, household belongings, and moving services throughout Kuwait.
 
-We provide professional maintenance services for LG washing machines and other LG appliances, with experienced technicians capable of diagnosing and repairing a wide range of technical problems.
+We specialize in moving furniture from houses, apartments, villas, offices, warehouses, and other locations. Our services include furniture dismantling, transportation, reassembly, packing, and arranging.
 
-We focus on providing fast, reliable, and professional maintenance services to help our customers get their appliances back to normal operation as quickly as possible.
+Our experienced workers can handle bedroom furniture, wardrobes, beds, cabinets, sofas, tables, office furniture, storage items, and household belongings with care.
 
-Our services include appliance inspection, fault diagnosis, repair, maintenance, and spare parts replacement.
+We provide furniture moving from house to house, apartment to apartment, and from one location to another within Kuwait.
 
-We also provide LG spare parts and focus on supplying reliable parts suitable for the required maintenance and repair.
+Our team also provides professional packing services to help protect furniture and household belongings during transportation.
 
-Our team is committed to quality service, fast response, professional support, and customer satisfaction.
+If you are looking for furniture moving in Kuwait, furniture movers, moving workers, or a moving vehicle, our team is ready to help.
+
+We also provide dismantling and installation services for bedrooms, wardrobes, beds, cabinets, and other furniture.
+
+Managed by Abu Ali.
 TEXT,
 
                 'about_ar' => <<<'TEXT'
-سنيور لصيانة وقطع غيار LG متخصص في صيانة وإصلاح أجهزة LG وتوفير قطع الغيار اللازمة لأعمال الصيانة.
+نقل عفش الكويت – إدارة أبو علي متخصصون في نقل العفش والأثاث والأغراض داخل الكويت، مع تقديم خدمات فك وتركيب وتغليف ونقل وترتيب الأثاث.
 
-نقدم خدمات صيانة احترافية لغسالات LG وغيرها من أجهزة LG، من خلال فريق من الفنيين ذوي الخبرة في تشخيص الأعطال وإصلاح المشكلات المختلفة بكفاءة وسرعة.
+نقوم بنقل العفش من البيت إلى البيت، ومن منزل إلى منزل، ومن شقة إلى شقة، ونوفر خدمات نقل الأثاث داخل الكويت للبيوت والشقق والفلل والأدوار والمكاتب والمخازن.
 
-نحرص على تقديم خدمة سريعة وموثوقة لمساعدة عملائنا على إعادة أجهزتهم للعمل في أسرع وقت ممكن.
+تشمل خدماتنا نقل غرف النوم، فك وتركيب غرف النوم، نقل الكبتات والسرائر والطاولات والكنب وجميع قطع الأثاث والأغراض المنزلية.
 
-تشمل خدماتنا فحص الأجهزة، وتشخيص الأعطال، والإصلاح، والصيانة، واستبدال قطع الغيار.
+كما لدينا فريق من العمال والنجارين المتخصصين في فك وتركيب العفش والأثاث، والتعامل مع قطع الأثاث الكبيرة والصغيرة بطريقة منظمة وآمنة.
 
-كما نوفر قطع غيار لأجهزة LG، مع الحرص على توفير قطع مناسبة لأعمال الصيانة والإصلاح.
+نوفر كذلك خدمة خاصة لتغليف العفش والأثاث والأغراض قبل النقل للمساعدة في حمايتها أثناء التحميل والنقل والتنزيل.
 
-نضع جودة الخدمة وسرعة الاستجابة والدعم الاحترافي ورضا العملاء في مقدمة أولوياتنا.
+إذا كنت تبحث عن نقل عفش الكويت أو نقل أثاث الكويت أو نقل أغراض الكويت، يمكنك التواصل معنا لطلب سيارة نقل عفش أو عمال نقل عفش حسب احتياجك.
+
+نقدم خدمات نقل العفش داخل المنزل، ونقل قطع الأثاث من البيت، ونقل أثاث البيوت والشقق والفلل والمكاتب والمخازن.
+
+إدارة أبو علي.
 TEXT,
 
                 'vision_en' => <<<'TEXT'
-To become a trusted and leading name in LG appliance maintenance and spare parts, recognized for fast service, professional technicians, reliable solutions, and excellent customer support.
+Our vision is to become a trusted name in furniture and household moving services in Kuwait by providing organized moving, professional dismantling and reassembly, careful packing, and reliable transportation.
+
+We aim to make moving furniture and household belongings easier, safer, and more convenient for customers throughout Kuwait.
 TEXT,
 
                 'vision_ar' => <<<'TEXT'
-أن نصبح من الأسماء الموثوقة والرائدة في مجال صيانة أجهزة LG وتوفير قطع الغيار، من خلال تقديم خدمة سريعة وحلول موثوقة وفريق فني محترف ودعم متميز للعملاء.
+رؤيتنا هي أن نكون من الأسماء الموثوقة في مجال نقل العفش والأثاث والأغراض داخل الكويت، من خلال تقديم خدمات منظمة تشمل الفك والتركيب والتغليف والنقل.
+
+نسعى إلى جعل عملية نقل العفش من البيت أو الشقة أو الفيلا أو المكتب أكثر سهولة وتنظيمًا، مع الاهتمام بالتعامل الجيد مع الأثاث والأغراض أثناء جميع مراحل النقل.
 TEXT,
 
                 'mission_en' => <<<'TEXT'
-Our mission is to provide LG appliance owners with professional, reliable, and efficient maintenance services.
+Our mission is to provide reliable furniture moving and household belongings transportation services throughout Kuwait.
 
-We are committed to fast response, accurate fault diagnosis, professional repairs, suitable spare parts, and excellent customer service.
+We are committed to providing professional workers, suitable transportation, careful furniture handling, dismantling and reassembly services, and packing solutions according to each customer's needs.
 
-Our goal is to solve appliance problems efficiently and help our customers keep their LG appliances working properly.
+Our goal is to help customers move their furniture, household belongings, bedrooms, wardrobes, beds, office furniture, and storage items efficiently and with proper care.
 TEXT,
 
                 'mission_ar' => <<<'TEXT'
-مهمتنا هي تقديم خدمات صيانة احترافية وموثوقة وفعالة لأصحاب أجهزة LG.
+مهمتنا هي تقديم خدمات نقل عفش وأثاث وأغراض موثوقة داخل الكويت، مع توفير العمالة المناسبة وسيارات النقل وخدمات الفك والتركيب والتغليف.
 
-نلتزم بسرعة الاستجابة، وتشخيص الأعطال بدقة، وتنفيذ أعمال الإصلاح والصيانة باحترافية، وتوفير قطع الغيار المناسبة، مع تقديم خدمة عملاء متميزة.
+نساعد العملاء في نقل عفش البيت والأثاث من منزل إلى منزل، ومن شقة إلى شقة، ومن بيت إلى بيت، بالإضافة إلى نقل أثاث الفلل والأدوار والمكاتب والمخازن.
 
-هدفنا هو حل أعطال الأجهزة بكفاءة ومساعدة عملائنا على الحفاظ على أجهزة LG الخاصة بهم في أفضل حالة تشغيل ممكنة.
+نهتم بنقل غرف النوم والكبتات والسرائر والكنب والطاولات وجميع قطع الأثاث والأغراض المنزلية بطريقة منظمة.
+
+كما نحرص على توفير خدمة تغليف مناسبة للأثاث والأغراض قبل النقل حسب طبيعة الطلب.
 TEXT,
 
                 'commitment_en' => <<<'TEXT'
-We are committed to providing professional LG maintenance services and reliable spare parts solutions.
+We are committed to providing professional furniture and household moving services throughout Kuwait.
 
 Our services include:
 
-- LG Washing Machine Maintenance
-- LG Appliance Repair
-- Fault Diagnosis and Inspection
-- Spare Parts Replacement
-- LG Spare Parts Supply
-- Fast Maintenance Response
-- Professional Technical Support
+- Furniture Moving in Kuwait
+- Household Belongings Moving
+- House to House Furniture Moving
+- Apartment to Apartment Moving
+- Villa Furniture Moving
+- Office Furniture Moving
+- Warehouse Moving
+- Bedroom Furniture Moving
+- Wardrobe and Cabinet Moving
+- Bed Moving
+- Furniture Dismantling
+- Furniture Assembly and Reassembly
+- Bedroom Dismantling and Assembly
+- Wardrobe Dismantling and Assembly
+- Furniture Packing
+- Household Belongings Packing
+- Moving Workers
+- Furniture Moving Car
+- Furniture Moving Truck
+- Carpenter for Furniture Dismantling and Assembly
+- Moving Furniture Inside the House
 
-We focus on quality, speed, reliability, and customer satisfaction.
+We also provide furniture moving services for customers looking to move used furniture or individual furniture pieces.
 
-For selected services, same-day maintenance may be available, subject to technician availability and service location.
+If you need to move furniture, household belongings, a bedroom, wardrobe, bed, or other items, contact us to arrange the appropriate moving service.
 
-We also offer a free fault inspection for the first contact of the day, according to the current service offer.
-
-QUALITY SERVICE. RELIABLE SOLUTIONS. PROFESSIONAL SUPPORT.
+Kuwait Furniture Moving - Managed by Abu Ali.
 TEXT,
 
                 'commitment_ar' => <<<'TEXT'
-نحن ملتزمون بتقديم خدمات صيانة احترافية لأجهزة LG وتوفير حلول موثوقة لقطع الغيار.
+نحن ملتزمون بتقديم خدمات نقل العفش والأثاث والأغراض داخل الكويت باحترافية وتنظيم.
 
 تشمل أهم خدماتنا:
 
-- صيانة غسالات LG
-- إصلاح أجهزة LG
-- فحص وتشخيص الأعطال
-- تغيير واستبدال قطع الغيار
-- توفير قطع غيار LG
-- سرعة الاستجابة لطلبات الصيانة
-- دعم فني احترافي
+- نقل عفش الكويت
+- نقل أثاث الكويت
+- نقل أغراض الكويت
+- نقل العفش بالكويت
+- نقل الأثاث بالكويت
+- نقل أغراض البيت
+- نقل عفش من بيت لبيت
+- نقل أثاث من بيت لبيت
+- نقل عفش من منزل لمنزل
+- نقل أثاث من منزل لمنزل
+- نقل عفش من شقة لشقة
+- نقل أثاث من شقة لشقة
+- نقل عفش داخل الكويت
+- نقل أثاث داخل الكويت
+- نقل عفش داخل المنزل
+- نقل أثاث داخل المنزل
+- نقل عفش داخل البيت
+- نقل أثاث داخل البيت
+- نقل غرف النوم
+- فك وتركيب غرف نوم الكويت
+- فك وتركيب عفش الكويت
+- فك وتركيب أثاث الكويت
+- فك وتركيب الكبتات
+- نقل الكبتات
+- نقل الكبتات بالكويت
+- نقل السرير
+- نقل الأثاث المستعمل
+- نقل قطع الأثاث
+- نقل قطع العفش
+- نقل أثاث البيت
+- نقل عفش البيت
+- نقل أثاث شقة
+- نقل عفش شقة
+- نقل أثاث منزل
+- نقل عفش منزل
+- نقل أثاث فيلا
+- نقل عفش فيلا
+- نقل أثاث دور
+- نقل عفش دور
+- نقل المكاتب
+- نقل المخازن
+- نقل الخيام
+- تغليف العفش
+- تغليف الأثاث
+- عمال نقل عفش الكويت
+- عمال نقل أثاث الكويت
+- نجار نقل عفش
+- نجار فك وتركيب عفش
+- سيارة نقل عفش
+- سيارة نقل أثاث
 
-نحرص على تقديم خدمة تتميز بالجودة والسرعة والاعتمادية ورضا العملاء.
+إذا كنت تقول: أبي نقل عفش، ابي نقل عفش، أبي نقل أثاث، ابي نقل اثاث، أبي نقل أغراض، ابي نقل اغراض، أو تحتاج أحد ينقل العفش أو عمال نقل عفش، نوفر لك خدمة النقل المناسبة حسب احتياجك.
 
-تتوفر خدمة الصيانة في نفس اليوم لبعض الطلبات وفقًا لتوافر الفني وموقع العميل.
+كما نوفر خدمات نقل عفش البيت، نقل أغراض البيت، نقل غرفة نوم، نقل كبت، نقل كبتات، نقل سرير، ونقل الأثاث المستعمل.
 
-كما يتوفر كشف أعطال مجاني لأول اتصال في اليوم وفقًا للعرض الحالي للخدمة.
+لدينا قسم خاص لتغليف العفش والأثاث والأغراض قبل النقل.
 
-خدمة بجودة عالية. حلول موثوقة. دعم احترافي.
+إدارة أبو علي – نقل عفش الكويت.
 TEXT,
 
-                'address_en' => 'Egypt',
-                'address_ar' => 'مصر',
+                'address_en' => 'Kuwait',
+                'address_ar' => 'الكويت',
             ]
         );
     }

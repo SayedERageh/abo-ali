@@ -18,6 +18,7 @@
     </main>
 
     @include('includes.footer')
+@include('includes.floating-contact')
 
     @include('includes.scripts')
 

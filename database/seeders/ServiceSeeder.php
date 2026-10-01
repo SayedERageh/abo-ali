@@ -12,121 +12,121 @@ class ServiceSeeder extends Seeder
         $services = [
 
             [
-                'title_ar' => 'صيانة غسالات LG',
-                'title_en' => 'LG Washing Machine Maintenance',
-                'slug' => 'lg-washing-machine-maintenance',
+                'title_ar' => 'نقل عفش الكويت',
+                'title_en' => 'Furniture Moving in Kuwait',
+                'slug' => 'furniture-moving-kuwait',
 
-                'short_description_ar' => 'صيانة وإصلاح غسالات LG وتشخيص الأعطال بدقة وسرعة.',
-                'short_description_en' => 'Professional maintenance and repair for LG washing machines with accurate fault diagnosis.',
+                'short_description_ar' => 'خدمة نقل عفش وأثاث وأغراض داخل الكويت من البيت إلى البيت أو من شقة إلى شقة.',
+                'short_description_en' => 'Professional furniture, household and belongings moving across Kuwait.',
 
                 'description_ar' =>
-                    'نقدم خدمات صيانة وإصلاح شاملة لغسالات LG، بداية من فحص الجهاز وتشخيص العطل بدقة وحتى تنفيذ الإصلاح المناسب، مع الاهتمام بجودة العمل وسرعة الاستجابة.',
+                    'نقدم خدمة نقل عفش الكويت ونقل الأثاث والأغراض داخل الكويت، من بيت لبيت ومن منزل لمنزل ومن شقة لشقة، مع توفير العمال والسيارات المناسبة لنقل العفش وتحميله وتفريغه بعناية.',
 
                 'description_en' =>
-                    'We provide comprehensive maintenance and repair services for LG washing machines, from accurate diagnosis to the appropriate repair, with a focus on quality and fast response.',
+                    'We provide professional furniture, household and belongings moving services across Kuwait, including house-to-house and apartment-to-apartment moving with suitable workers and moving vehicles.',
 
-                'icon' => 'bi bi-tools',
-                'image' => 'services/lg-washing-machine-maintenance.jpg',
+                'icon' => 'bi bi-truck',
+                'image' => 'services/furniture-moving-kuwait.jpg',
                 'sort_order' => 1,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'إصلاح أعطال غسالات LG',
-                'title_en' => 'LG Washing Machine Fault Repair',
-                'slug' => 'lg-washing-machine-fault-repair',
+                'title_ar' => 'فك وتركيب عفش الكويت',
+                'title_en' => 'Furniture Dismantling and Assembly in Kuwait',
+                'slug' => 'furniture-dismantling-assembly-kuwait',
 
-                'short_description_ar' => 'تشخيص وإصلاح مختلف أعطال غسالات LG بواسطة فنيين متخصصين.',
-                'short_description_en' => 'Diagnosis and repair of various LG washing machine faults by experienced technicians.',
+                'short_description_ar' => 'فك وتركيب العفش والأثاث وغرف النوم والكبتات والسرائر بواسطة عمال متخصصين.',
+                'short_description_en' => 'Professional furniture, bedroom, wardrobe and bed dismantling and assembly.',
 
                 'description_ar' =>
-                    'نعمل على تشخيص وإصلاح مختلف أعطال غسالات LG، سواء كانت المشكلة في التشغيل أو الصرف أو العصر أو أي مكون آخر، مع تحديد سبب العطل واختيار الحل المناسب.',
+                    'نوفر خدمة فك وتركيب عفش الكويت قبل النقل وبعد الوصول، وتشمل فك وتركيب غرف النوم والكبتات والسرائر وقطع الأثاث المختلفة، مع الاهتمام بترتيب القطع وتجهيزها للنقل والتركيب من جديد.',
 
                 'description_en' =>
-                    'We diagnose and repair various LG washing machine problems, including operating, drainage, spinning, and component-related faults, while identifying the cause and selecting the appropriate solution.',
+                    'We provide professional furniture dismantling and assembly in Kuwait, including bedrooms, wardrobes, beds and various furniture pieces before and after moving.',
 
-                'icon' => 'bi bi-wrench-adjustable',
-                'image' => 'services/lg-fault-repair.jpg',
+                'icon' => 'bi bi-tools',
+                'image' => 'services/furniture-dismantling-assembly.jpg',
                 'sort_order' => 2,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'كشف وتشخيص أعطال LG',
-                'title_en' => 'LG Fault Diagnosis',
-                'slug' => 'lg-fault-diagnosis',
+                'title_ar' => 'نقل أثاث الكويت',
+                'title_en' => 'Furniture Moving Kuwait',
+                'slug' => 'furniture-moving-kuwait',
 
-                'short_description_ar' => 'فحص الغسالة وتحديد سبب العطل للوصول للحل المناسب.',
-                'short_description_en' => 'Professional appliance inspection to identify faults and determine the right solution.',
+                'short_description_ar' => 'نقل أثاث الكويت للمنازل والشقق والفلل والمكاتب والمخازن.',
+                'short_description_en' => 'Furniture moving services for homes, apartments, villas, offices and warehouses in Kuwait.',
 
                 'description_ar' =>
-                    'نقوم بفحص غسالة LG وتحديد سبب المشكلة قبل بدء أعمال الإصلاح، لمساعدتك على معرفة العطل والحل المناسب وتقليل الوقت اللازم لإعادة الجهاز للعمل.',
+                    'نقدم خدمات نقل أثاث الكويت لمختلف أنواع العقارات، سواء نقل أثاث منزل أو شقة أو فيلا أو مكتب أو مخزن، مع إمكانية توفير العمال والسيارات وتجهيز الأثاث قبل التحميل والنقل.',
 
                 'description_en' =>
-                    'We inspect LG washing machines to identify the cause of the problem before repair, helping determine the right solution and reduce the time needed to restore the appliance.',
+                    'We provide furniture moving services in Kuwait for homes, apartments, villas, offices and warehouses, with workers and suitable moving vehicles available according to the service requirements.',
 
-                'icon' => 'bi bi-search',
-                'image' => 'services/lg-diagnosis.jpg',
+                'icon' => 'bi bi-house-door',
+                'image' => 'services/furniture-moving.jpg',
                 'sort_order' => 3,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'توفير قطع غيار غسالات LG',
-                'title_en' => 'LG Washing Machine Spare Parts',
-                'slug' => 'lg-washing-machine-spare-parts',
+                'title_ar' => 'تغليف العفش والأثاث',
+                'title_en' => 'Furniture and Belongings Packing',
+                'slug' => 'furniture-packing-kuwait',
 
-                'short_description_ar' => 'توفير قطع غيار ومكونات غسالات LG حسب نوع وموديل الجهاز.',
-                'short_description_en' => 'LG washing machine spare parts selected according to appliance type and model.',
+                'short_description_ar' => 'تغليف العفش والأثاث والأغراض قبل التحميل والنقل داخل الكويت.',
+                'short_description_en' => 'Professional packing of furniture and household belongings before moving.',
 
                 'description_ar' =>
-                    'نوفر مجموعة متنوعة من قطع غيار ومكونات غسالات LG، مع المساعدة في تحديد القطعة المناسبة حسب موديل الغسالة ونوع العطل لضمان توافقها مع الجهاز.',
+                    'نوفر خدمة تغليف العفش والأثاث والأغراض قبل النقل، للمساعدة على حماية القطع أثناء التحميل والنقل والتفريغ، وتشمل الخدمة تجهيز قطع الأثاث وغرف النوم والكبتات والسرائر والأغراض المنزلية.',
 
                 'description_en' =>
-                    'We provide a variety of LG washing machine spare parts and components, with assistance in identifying the right part according to the washing machine model and fault.',
+                    'We provide professional furniture and household belongings packing before moving to help protect items during loading, transportation and unloading.',
 
-                'icon' => 'bi bi-gear',
-                'image' => 'services/lg-spare-parts.jpg',
+                'icon' => 'bi bi-box-seam',
+                'image' => 'services/furniture-packing-kuwait.jpg',
                 'sort_order' => 4,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'صيانة في نفس اليوم',
-                'title_en' => 'Same-Day LG Maintenance',
-                'slug' => 'same-day-lg-maintenance',
+                'title_ar' => 'نقل غرف النوم والكبتات والسرائر',
+                'title_en' => 'Bedroom, Wardrobe and Bed Moving',
+                'slug' => 'bedroom-wardrobe-bed-moving-kuwait',
 
-                'short_description_ar' => 'استجابة سريعة وإمكانية تنفيذ صيانة غسالات LG في نفس اليوم.',
-                'short_description_en' => 'Fast response with same-day LG washing machine maintenance when available.',
+                'short_description_ar' => 'نقل غرف النوم والكبتات والسرائر مع إمكانية الفك والتركيب والتغليف.',
+                'short_description_en' => 'Bedroom, wardrobe and bed moving with dismantling, packing and assembly.',
 
                 'description_ar' =>
-                    'نسعى لتوفير استجابة سريعة لطلبات صيانة غسالات LG، مع إمكانية تنفيذ الصيانة في نفس اليوم حسب توفر الفني وموقع العميل وطبيعة العطل.',
+                    'خدمة متخصصة في نقل غرف النوم والكبتات والسرائر داخل الكويت، بداية من فك القطع وتجهيزها وتغليفها، ثم تحميلها ونقلها إلى الموقع الجديد وتركيبها عند الحاجة.',
 
                 'description_en' =>
-                    'We aim to provide a fast response to LG washing machine maintenance requests, with same-day service available depending on technician availability, customer location, and fault type.',
+                    'Specialized moving service for bedrooms, wardrobes and beds across Kuwait, including dismantling, preparation, packing, transportation and assembly when required.',
 
-                'icon' => 'bi bi-lightning-charge',
-                'image' => 'services/same-day-maintenance.jpg',
+                'icon' => 'bi bi-door-open',
+                'image' => 'services/bedroom-wardrobe-moving.jpg',
                 'sort_order' => 5,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'دعم وخدمة عملاء LG',
-                'title_en' => 'LG Customer Support',
-                'slug' => 'lg-customer-support',
+                'title_ar' => 'نقل أغراض البيت والمكاتب والمخازن',
+                'title_en' => 'Household, Office and Warehouse Moving',
+                'slug' => 'household-office-warehouse-moving-kuwait',
 
-                'short_description_ar' => 'دعم ومتابعة لمساعدتك في حل مشاكل غسالة LG واختيار الخدمة المناسبة.',
-                'short_description_en' => 'Customer support to help resolve LG washing machine issues and choose the right service.',
+                'short_description_ar' => 'نقل أغراض البيت والأثاث والمكاتب والمخازن داخل الكويت بسيارات وعمال مناسبين.',
+                'short_description_en' => 'Moving household belongings, office furniture and warehouse items across Kuwait.',
 
                 'description_ar' =>
-                    'فريق سنيور جاهز للرد على استفسارات العملاء ومساعدتهم في تحديد الخدمة المناسبة، ومعرفة تفاصيل العطل ومتابعة طلبات الصيانة وقطع الغيار.',
+                    'نقدم خدمة نقل أغراض الكويت ونقل أغراض البيت والمكاتب والمخازن، بما يشمل الأثاث والقطع المختلفة والأغراض المنزلية والمستلزمات، مع توفير العمال وسيارات نقل العفش حسب حجم المنقولات.',
 
                 'description_en' =>
-                    'The Senior team is ready to answer customer inquiries, help identify the right service, understand appliance problems, and follow up on maintenance and spare parts requests.',
+                    'We provide household, office and warehouse moving services across Kuwait, including furniture, belongings and various items with suitable workers and moving vehicles.',
 
-                'icon' => 'bi bi-headset',
-                'image' => 'services/customer-support.jpg',
+                'icon' => 'bi bi-boxes',
+                'image' => 'services/household-office-warehouse-moving.jpg',
                 'sort_order' => 6,
                 'is_active' => true,
             ],

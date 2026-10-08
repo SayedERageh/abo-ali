@@ -12,121 +12,121 @@ class ServiceSeeder extends Seeder
         $services = [
 
             [
-                'title_ar' => 'نقل عفش الكويت',
-                'title_en' => 'Furniture Moving in Kuwait',
-                'slug' => 'furniture-moving-kuwait',
+                'title_ar' => 'تركيب مكيفات سبليت',
+                'title_en' => 'Split AC Installation',
+                'slug' => 'split-ac-installation-kuwait',
 
-                'short_description_ar' => 'خدمة نقل عفش وأثاث وأغراض داخل الكويت من البيت إلى البيت أو من شقة إلى شقة.',
-                'short_description_en' => 'Professional furniture, household and belongings moving across Kuwait.',
+                'short_description_ar' => 'تركيب مكيفات سبليت للمنازل والشقق والفلل والمكاتب في الكويت.',
+                'short_description_en' => 'Professional split AC installation for homes, apartments, villas and offices in Kuwait.',
 
                 'description_ar' =>
-                    'نقدم خدمة نقل عفش الكويت ونقل الأثاث والأغراض داخل الكويت، من بيت لبيت ومن منزل لمنزل ومن شقة لشقة، مع توفير العمال والسيارات المناسبة لنقل العفش وتحميله وتفريغه بعناية.',
+                    'نقدم خدمة تركيب مكيفات سبليت في الكويت للمنازل والشقق والفلل والمكاتب، مع تركيب وتجهيز الوحدات الداخلية والخارجية والتأكد من تشغيل المكيف بصورة مناسبة.',
 
                 'description_en' =>
-                    'We provide professional furniture, household and belongings moving services across Kuwait, including house-to-house and apartment-to-apartment moving with suitable workers and moving vehicles.',
+                    'We provide professional split AC installation in Kuwait for homes, apartments, villas and offices, including indoor and outdoor unit installation and proper system setup.',
 
-                'icon' => 'bi bi-truck',
-                'image' => 'services/furniture-moving-kuwait.jpg',
+                'icon' => 'bi bi-snow',
+                'image' => 'services/split-ac-installation-kuwait.jpg',
                 'sort_order' => 1,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'فك وتركيب عفش الكويت',
-                'title_en' => 'Furniture Dismantling and Assembly in Kuwait',
-                'slug' => 'furniture-dismantling-assembly-kuwait',
+                'title_ar' => 'صيانة وتصليح المكيفات',
+                'title_en' => 'AC Maintenance and Repair',
+                'slug' => 'ac-maintenance-repair-kuwait',
 
-                'short_description_ar' => 'فك وتركيب العفش والأثاث وغرف النوم والكبتات والسرائر بواسطة عمال متخصصين.',
-                'short_description_en' => 'Professional furniture, bedroom, wardrobe and bed dismantling and assembly.',
+                'short_description_ar' => 'صيانة وتصليح أعطال المكيفات ومعالجة مشاكل ضعف التبريد وتسريب المياه.',
+                'short_description_en' => 'AC maintenance and repair for cooling problems, water leaks and other faults.',
 
                 'description_ar' =>
-                    'نوفر خدمة فك وتركيب عفش الكويت قبل النقل وبعد الوصول، وتشمل فك وتركيب غرف النوم والكبتات والسرائر وقطع الأثاث المختلفة، مع الاهتمام بترتيب القطع وتجهيزها للنقل والتركيب من جديد.',
+                    'نوفر خدمات صيانة وتصليح المكيفات في الكويت، مع فحص الجهاز وتشخيص سبب العطل ومعالجة مشاكل ضعف التبريد وتسريب المياه والأعطال المختلفة حسب نوع المكيف وحالته.',
 
                 'description_en' =>
-                    'We provide professional furniture dismantling and assembly in Kuwait, including bedrooms, wardrobes, beds and various furniture pieces before and after moving.',
+                    'We provide AC maintenance and repair services in Kuwait, including inspection and diagnosis of weak cooling, water leakage and other air conditioning problems.',
 
                 'icon' => 'bi bi-tools',
-                'image' => 'services/furniture-dismantling-assembly.jpg',
+                'image' => 'services/ac-maintenance-repair.jpg',
                 'sort_order' => 2,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'نقل أثاث الكويت',
-                'title_en' => 'Furniture Moving Kuwait',
-                'slug' => 'furniture-moving-kuwait',
+                'title_ar' => 'تنظيف المكيفات',
+                'title_en' => 'AC Cleaning',
+                'slug' => 'ac-cleaning-kuwait',
 
-                'short_description_ar' => 'نقل أثاث الكويت للمنازل والشقق والفلل والمكاتب والمخازن.',
-                'short_description_en' => 'Furniture moving services for homes, apartments, villas, offices and warehouses in Kuwait.',
+                'short_description_ar' => 'تنظيف مكيفات السبليت والمكيفات المختلفة للمساعدة على تحسين أداء التبريد.',
+                'short_description_en' => 'Professional AC cleaning to help improve cooling performance and efficiency.',
 
                 'description_ar' =>
-                    'نقدم خدمات نقل أثاث الكويت لمختلف أنواع العقارات، سواء نقل أثاث منزل أو شقة أو فيلا أو مكتب أو مخزن، مع إمكانية توفير العمال والسيارات وتجهيز الأثاث قبل التحميل والنقل.',
+                    'نقدم خدمة تنظيف المكيفات وإزالة الأتربة والشوائب المتراكمة من الأجزاء التي تحتاج إلى التنظيف، للمساعدة في تحسين أداء المكيف وكفاءة التبريد والحفاظ على نظافة الجهاز.',
 
                 'description_en' =>
-                    'We provide furniture moving services in Kuwait for homes, apartments, villas, offices and warehouses, with workers and suitable moving vehicles available according to the service requirements.',
+                    'We provide professional AC cleaning to remove dust and buildup from components that require cleaning, helping improve cooling performance and maintain cleaner AC systems.',
 
-                'icon' => 'bi bi-house-door',
-                'image' => 'services/furniture-moving.jpg',
+                'icon' => 'bi bi-droplet',
+                'image' => 'services/ac-cleaning-kuwait.jpg',
                 'sort_order' => 3,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'تغليف العفش والأثاث',
-                'title_en' => 'Furniture and Belongings Packing',
-                'slug' => 'furniture-packing-kuwait',
+                'title_ar' => 'تعبئة وفحص فريون المكيف',
+                'title_en' => 'AC Refrigerant Inspection and Charging',
+                'slug' => 'ac-refrigerant-charging-kuwait',
 
-                'short_description_ar' => 'تغليف العفش والأثاث والأغراض قبل التحميل والنقل داخل الكويت.',
-                'short_description_en' => 'Professional packing of furniture and household belongings before moving.',
+                'short_description_ar' => 'فحص مستوى فريون المكيف وتعبئته عند الحاجة مع التحقق من مشاكل التبريد.',
+                'short_description_en' => 'Refrigerant inspection and charging with cooling performance checks.',
 
                 'description_ar' =>
-                    'نوفر خدمة تغليف العفش والأثاث والأغراض قبل النقل، للمساعدة على حماية القطع أثناء التحميل والنقل والتفريغ، وتشمل الخدمة تجهيز قطع الأثاث وغرف النوم والكبتات والسرائر والأغراض المنزلية.',
+                    'نوفر خدمة فحص فريون المكيفات وتعبئة الفريون عند الحاجة، مع فحص أداء التبريد والتأكد من عدم وجود مشكلة مرتبطة بنقص الفريون أو تسريب في النظام.',
 
                 'description_en' =>
-                    'We provide professional furniture and household belongings packing before moving to help protect items during loading, transportation and unloading.',
+                    'We provide AC refrigerant inspection and charging when required, along with cooling performance checks and inspection for refrigerant loss or system leaks.',
 
-                'icon' => 'bi bi-box-seam',
-                'image' => 'services/furniture-packing-kuwait.jpg',
+                'icon' => 'bi bi-speedometer2',
+                'image' => 'services/ac-refrigerant-kuwait.jpg',
                 'sort_order' => 4,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'نقل غرف النوم والكبتات والسرائر',
-                'title_en' => 'Bedroom, Wardrobe and Bed Moving',
-                'slug' => 'bedroom-wardrobe-bed-moving-kuwait',
+                'title_ar' => 'صيانة المكيفات المركزية',
+                'title_en' => 'Central AC Maintenance',
+                'slug' => 'central-ac-maintenance-kuwait',
 
-                'short_description_ar' => 'نقل غرف النوم والكبتات والسرائر مع إمكانية الفك والتركيب والتغليف.',
-                'short_description_en' => 'Bedroom, wardrobe and bed moving with dismantling, packing and assembly.',
+                'short_description_ar' => 'صيانة وفحص المكيفات المركزية للمنازل والفلل والمكاتب والمنشآت في الكويت.',
+                'short_description_en' => 'Central AC maintenance and inspection for homes, villas, offices and businesses in Kuwait.',
 
                 'description_ar' =>
-                    'خدمة متخصصة في نقل غرف النوم والكبتات والسرائر داخل الكويت، بداية من فك القطع وتجهيزها وتغليفها، ثم تحميلها ونقلها إلى الموقع الجديد وتركيبها عند الحاجة.',
+                    'نقدم خدمات صيانة وتصليح المكيفات المركزية في الكويت للمنازل والفلل والمكاتب والمنشآت، مع فحص النظام وتشخيص مشاكل التبريد والأعطال وتنفيذ الخدمة المناسبة حسب الحالة.',
 
                 'description_en' =>
-                    'Specialized moving service for bedrooms, wardrobes and beds across Kuwait, including dismantling, preparation, packing, transportation and assembly when required.',
+                    'We provide central AC maintenance and repair in Kuwait for homes, villas, offices and businesses, including system inspection, cooling problem diagnosis and appropriate service.',
 
-                'icon' => 'bi bi-door-open',
-                'image' => 'services/bedroom-wardrobe-moving.jpg',
+                'icon' => 'bi bi-building',
+                'image' => 'services/central-ac-maintenance-kuwait.jpg',
                 'sort_order' => 5,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'نقل أغراض البيت والمكاتب والمخازن',
-                'title_en' => 'Household, Office and Warehouse Moving',
-                'slug' => 'household-office-warehouse-moving-kuwait',
+                'title_ar' => 'خدمة تكييف للمنازل والمكاتب',
+                'title_en' => 'Residential and Office AC Service',
+                'slug' => 'residential-office-ac-service-kuwait',
 
-                'short_description_ar' => 'نقل أغراض البيت والأثاث والمكاتب والمخازن داخل الكويت بسيارات وعمال مناسبين.',
-                'short_description_en' => 'Moving household belongings, office furniture and warehouse items across Kuwait.',
+                'short_description_ar' => 'خدمات تكييف متكاملة للمنازل والشقق والفلل والمكاتب والمحلات في مختلف مناطق الكويت.',
+                'short_description_en' => 'Complete AC services for homes, apartments, villas, offices and shops across Kuwait.',
 
                 'description_ar' =>
-                    'نقدم خدمة نقل أغراض الكويت ونقل أغراض البيت والمكاتب والمخازن، بما يشمل الأثاث والقطع المختلفة والأغراض المنزلية والمستلزمات، مع توفير العمال وسيارات نقل العفش حسب حجم المنقولات.',
+                    'نوفر خدمات التكييف للمنازل والشقق والفلل والمكاتب والمحلات في مختلف مناطق الكويت، وتشمل التركيب والصيانة والتصليح والتنظيف وفحص وتعبئة الفريون حسب احتياج العميل.',
 
                 'description_en' =>
-                    'We provide household, office and warehouse moving services across Kuwait, including furniture, belongings and various items with suitable workers and moving vehicles.',
+                    'We provide AC services for homes, apartments, villas, offices and shops across Kuwait, including installation, maintenance, repair, cleaning and refrigerant services according to customer needs.',
 
-                'icon' => 'bi bi-boxes',
-                'image' => 'services/household-office-warehouse-moving.jpg',
+                'icon' => 'bi bi-house-gear',
+                'image' => 'services/residential-office-ac-kuwait.jpg',
                 'sort_order' => 6,
                 'is_active' => true,
             ],

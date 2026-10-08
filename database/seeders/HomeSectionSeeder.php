@@ -15,12 +15,12 @@ class HomeSectionSeeder extends Seeder
                 'title_ar' => 'من نحن',
                 'title_en' => 'ABOUT US',
 
-                'subtitle_ar' => 'نقل عفش وأثاث وأغراض داخل الكويت',
-                'subtitle_en' => 'Furniture & Household Moving in Kuwait',
+                'subtitle_ar' => 'أبو علي للتكييفات في الكويت',
+                'subtitle_en' => 'Abu Ali Air Conditioning in Kuwait',
 
-                'description_ar' => 'نقل عفش الكويت – إدارة أبو علي متخصصون في نقل العفش والأثاث والأغراض داخل الكويت. نقدم خدمات نقل العفش من بيت لبيت ومن منزل لمنزل ومن شقة لشقة، مع فك وتركيب الأثاث وتغليف العفش وتوفير العمال وسيارات النقل حسب احتياج العميل.',
+                'description_ar' => 'أبو علي للتكييفات متخصصون في خدمات تركيب وصيانة وتصليح وتنظيف المكيفات في الكويت. نقدم خدماتنا للمنازل والشقق والفلل والمكاتب والمنشآت، مع خبرة في التعامل مع مكيفات السبليت والمكيفات المركزية وتوفير الحلول المناسبة حسب حالة كل جهاز.',
 
-                'description_en' => 'Kuwait Furniture Moving, managed by Abu Ali, provides furniture, household belongings, and moving services throughout Kuwait. We offer house-to-house and apartment-to-apartment moving, furniture dismantling and assembly, packing, workers, and moving vehicles.',
+                'description_en' => 'Abu Ali Air Conditioning provides professional air conditioning installation, maintenance, repair, cleaning, and refrigerant services in Kuwait. We serve homes, apartments, villas, offices, and businesses, with experience in split and central air conditioning systems.',
 
                 'button_text_ar' => 'اعرف المزيد',
                 'button_text_en' => 'Learn More',
@@ -29,15 +29,15 @@ class HomeSectionSeeder extends Seeder
 
             [
                 'key' => 'services',
-                'title_ar' => 'خدمات نقل العفش',
-                'title_en' => 'OUR MOVING SERVICES',
+                'title_ar' => 'خدمات التكييف',
+                'title_en' => 'OUR AC SERVICES',
 
-                'subtitle_ar' => 'نقل وفك وتركيب وتغليف الأثاث',
-                'subtitle_en' => 'Moving, Dismantling, Assembly & Packing',
+                'subtitle_ar' => 'تركيب وصيانة وتصليح وتنظيف المكيفات',
+                'subtitle_en' => 'AC Installation, Maintenance, Repair & Cleaning',
 
-                'description_ar' => 'نقدم خدمات نقل عفش الكويت ونقل أثاث الكويت ونقل أغراض الكويت، بالإضافة إلى فك وتركيب غرف النوم والكبتات والسرائر، وتغليف العفش، ونقل أثاث البيوت والشقق والفلل والمكاتب والمخازن.',
+                'description_ar' => 'نقدم مجموعة متكاملة من خدمات التكييف في الكويت تشمل تركيب المكيفات السبليت والمركزية، صيانة وإصلاح الأعطال، تنظيف المكيفات، تعبئة وفحص الفريون، ومعالجة مشاكل ضعف التبريد وتسريب المياه والأعطال المختلفة.',
 
-                'description_en' => 'We provide furniture and household moving services in Kuwait, including dismantling and assembly of bedrooms, wardrobes, and beds, furniture packing, and moving homes, apartments, villas, offices, and warehouses.',
+                'description_en' => 'We provide complete air conditioning services in Kuwait, including split and central AC installation, maintenance and repair, AC cleaning, refrigerant checking and charging, weak cooling solutions, water leakage repair, and troubleshooting of different AC problems.',
 
                 'button_text_ar' => 'جميع خدماتنا',
                 'button_text_en' => 'All Services',
@@ -46,28 +46,29 @@ class HomeSectionSeeder extends Seeder
 
             [
                 'key' => 'values',
-                'title_ar' => 'لماذا نقل عفش الكويت؟',
-                'title_en' => 'WHY KUWAIT FURNITURE MOVING?',
+                'title_ar' => 'لماذا أبو علي للتكييفات؟',
+                'title_en' => 'WHY ABU ALI AC?',
 
-                'subtitle_ar' => 'تنظيم واهتمام بالعفش من بداية النقل حتى الوصول',
-                'subtitle_en' => 'Careful Handling From Start to Finish',
+                'subtitle_ar' => 'خدمة تكييف تهتم بالتشخيص وجودة التنفيذ',
+                'subtitle_en' => 'Professional Diagnosis & Quality Service',
 
-                'description_ar' => 'نوفر عمال ونجارين متخصصين في فك وتركيب العفش، مع خدمة تغليف الأثاث والأغراض وتوفير سيارات نقل مناسبة، والاهتمام بعملية التحميل والنقل والتنزيل.',
+                'description_ar' => 'نهتم بفحص المشكلة وتحديد سبب العطل قبل بدء العمل، مع توفير خدمات الصيانة والتصليح والتنظيف والتركيب حسب احتياج العميل. هدفنا تقديم خدمة منظمة وسريعة والحفاظ على كفاءة المكيف لأطول فترة ممكنة.',
 
-                'description_en' => 'We provide experienced moving workers and carpenters for furniture dismantling and assembly, along with packing and suitable transportation solutions with careful handling throughout the move.',
+                'description_en' => 'We focus on inspecting the AC system and identifying the cause of the problem before starting the work. Our services include maintenance, repair, cleaning, and installation according to each customer’s needs, with a focus on efficient and reliable service.',
+
             ],
 
             [
                 'key' => 'projects',
-                'title_ar' => 'ما الذي نقوم بنقله؟',
-                'title_en' => 'WHAT WE MOVE',
+                'title_ar' => 'ماذا نخدم؟',
+                'title_en' => 'WHAT WE SERVICE',
 
-                'subtitle_ar' => 'نقل مختلف أنواع العفش والأثاث والأغراض',
-                'subtitle_en' => 'Different Types of Furniture & Belongings',
+                'subtitle_ar' => 'مكيفات سبليت ومكيفات مركزية للمنازل والمنشآت',
+                'subtitle_en' => 'Split & Central AC Systems',
 
-                'description_ar' => 'نقوم بنقل غرف النوم والكبتات والسرائر والكنب والطاولات والأثاث المستعمل وأثاث المكاتب والمخازن والأغراض المنزلية، كما نقدم خدمات نقل العفش داخل البيت والفيلا والشقة.',
+                'description_ar' => 'نخدم مختلف أنواع المكيفات في الكويت، بما في ذلك مكيفات السبليت والمكيفات المركزية. نقدم خدمات التركيب والصيانة والتنظيف والتصليح وفحص وتعبئة الفريون للمنازل والشقق والفلل والمكاتب والمحلات والمنشآت.',
 
-                'description_en' => 'We move bedrooms, wardrobes, beds, sofas, tables, used furniture, office furniture, warehouse items, and household belongings from houses, villas, and apartments.',
+                'description_en' => 'We service different types of air conditioning systems in Kuwait, including split and central AC units. Our services cover installation, maintenance, cleaning, repair, and refrigerant inspection and charging for homes, apartments, villas, offices, shops, and businesses.',
 
                 'button_text_ar' => 'اكتشف خدماتنا',
                 'button_text_en' => 'Explore Our Services',
@@ -76,31 +77,32 @@ class HomeSectionSeeder extends Seeder
 
             [
                 'key' => 'commitment',
-                'title_ar' => 'التزامنا',
-                'title_en' => 'OUR COMMITMENT',
+                'title_ar' => 'خدمة في مناطق الكويت',
+                'title_en' => 'SERVICE ACROSS KUWAIT',
 
-                'subtitle_ar' => 'خدمة نقل منظمة تبدأ من أول اتصال',
-                'subtitle_en' => 'Organized Moving Service From the First Call',
+                'subtitle_ar' => 'نخدم العملاء في مختلف مناطق الكويت',
+                'subtitle_en' => 'Serving Customers Across Kuwait',
 
-                'description_ar' => 'نلتزم بتوفير خدمة نقل عفش وأثاث منظمة، بداية من التواصل وتحديد احتياج العميل، مرورًا بالفك والتغليف والتحميل والنقل، وحتى التنزيل والتركيب عند الحاجة.',
+                'description_ar' => 'نوفر خدمات التكييف للعملاء في مختلف مناطق الكويت، بما في ذلك حولي والسالمية والفروانية وخيطان والجهراء والفحيحيل ومناطق أخرى. يتم تحديد نوع الخدمة المطلوبة حسب موقع العميل وحالة المكيف.',
 
-                'description_en' => 'We are committed to providing an organized moving service, from understanding the customer needs through dismantling, packing, loading, transportation, unloading, and assembly when required.',
+                'description_en' => 'We provide air conditioning services across Kuwait, including Hawally, Salmiya, Farwaniya, Khaitan, Jahra, Fahaheel, and other areas. The required service is determined according to the customer’s location and AC condition.',
+
             ],
 
             [
                 'key' => 'cta',
-                'title_ar' => 'أبي نقل عفش بالكويت؟',
-                'title_en' => 'NEED FURNITURE MOVING IN KUWAIT?',
+                'title_ar' => 'تحتاج فني تكييف في الكويت؟',
+                'title_en' => 'NEED AN AC TECHNICIAN IN KUWAIT?',
 
-                'subtitle_ar' => 'نقل عفش وأثاث وأغراض داخل الكويت',
-                'subtitle_en' => 'Furniture & Household Moving Across Kuwait',
+                'subtitle_ar' => 'تركيب وصيانة وتصليح وتنظيف المكيفات',
+                'subtitle_en' => 'AC Installation, Maintenance, Repair & Cleaning',
 
-                'description_ar' => 'أبي نقل عفش، أبي نقل أثاث، أبي نقل أغراض البيت أو أبي سيارة نقل عفش؟ تواصل معنا الآن لترتيب خدمة النقل المناسبة، سواء كنت تحتاج نقل بيت أو شقة أو غرفة نوم أو كبت أو أثاث مستعمل.',
+                'description_ar' => 'إذا كنت تحتاج تركيب مكيف جديد، صيانة أو تصليح مكيف، تنظيف مكيف سبليت أو مركزي، أو فحص وتعبئة الفريون، تواصل مع أبو علي للتكييفات على الرقم +965 5149 2176 لترتيب الخدمة المناسبة.',
 
-                'description_en' => 'Need furniture, household, or belongings moving in Kuwait? Contact us to arrange the right moving service for your house, apartment, bedroom, wardrobe, or used furniture.',
+                'description_en' => 'Need a new AC installation, maintenance, repair, cleaning, or refrigerant service? Contact Abu Ali Air Conditioning at +965 5149 2176 to arrange the right service for your needs.',
 
-                'button_text_ar' => 'اطلب نقل عفش الآن',
-                'button_text_en' => 'Request Moving Service',
+                'button_text_ar' => 'اتصل بنا الآن',
+                'button_text_en' => 'Contact Us Now',
                 'button_url' => '/contact',
             ],
         ];

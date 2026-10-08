@@ -14,132 +14,132 @@ class ProjectSeeder extends Seeder
         $projects = [
 
             [
-                'title_ar' => 'نقل عفش من بيت لبيت',
-                'title_en' => 'House to House Furniture Moving',
+                'title_ar' => 'تركيب مكيفات سبليت للمنازل',
+                'title_en' => 'Residential Split AC Installation',
 
-                'slug' => 'house-to-house-furniture-moving',
+                'slug' => 'residential-split-ac-installation-kuwait',
 
-                'category_ar' => 'نقل عفش',
-                'category_en' => 'Furniture Moving',
+                'category_ar' => 'تركيب مكيفات',
+                'category_en' => 'AC Installation',
 
-                'description_ar' => 'خدمة نقل عفش وأثاث من بيت لبيت داخل الكويت، تشمل تحميل العفش ونقله وتنزيله، مع إمكانية فك وتركيب قطع الأثاث الكبيرة حسب احتياج العميل.',
+                'description_ar' => 'تركيب مكيفات سبليت للمنازل والشقق والفلل في الكويت، مع تجهيز الوحدات الداخلية والخارجية والتأكد من تشغيل المكيف بصورة مناسبة.',
 
-                'description_en' => 'House-to-house furniture moving service throughout Kuwait, including loading, transportation, unloading, and furniture dismantling and assembly when required.',
+                'description_en' => 'Split AC installation for homes, apartments, and villas in Kuwait, including indoor and outdoor unit setup and proper system operation.',
 
                 'location_ar' => 'الكويت',
                 'location_en' => 'Kuwait',
 
-                'image' => 'projects/house-to-house-moving.jpg',
+                'image' => 'projects/split-ac-installation.jpg',
 
                 'sort_order' => 1,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'نقل عفش من شقة لشقة',
-                'title_en' => 'Apartment to Apartment Moving',
+                'title_ar' => 'صيانة مكيفات في حولي',
+                'title_en' => 'AC Maintenance in Hawally',
 
-                'slug' => 'apartment-to-apartment-moving',
+                'slug' => 'ac-maintenance-hawally',
 
-                'category_ar' => 'نقل أثاث',
-                'category_en' => 'Furniture Moving',
+                'category_ar' => 'صيانة مكيفات',
+                'category_en' => 'AC Maintenance',
 
-                'description_ar' => 'نقل أثاث وعفش الشقق داخل الكويت، بما يشمل غرف النوم والكبتات والسرائر والكنب والطاولات وجميع الأغراض المنزلية.',
+                'description_ar' => 'خدمة صيانة وفحص المكيفات في منطقة حولي، مع تشخيص مشاكل ضعف التبريد والأعطال المختلفة وتنفيذ الصيانة المناسبة حسب حالة المكيف.',
 
-                'description_en' => 'Apartment-to-apartment furniture moving throughout Kuwait, including bedrooms, wardrobes, beds, sofas, tables, and household belongings.',
+                'description_en' => 'AC inspection and maintenance service in Hawally, including diagnosis of weak cooling and other AC problems with appropriate maintenance.',
 
-                'location_ar' => 'الكويت',
-                'location_en' => 'Kuwait',
+                'location_ar' => 'حولي، الكويت',
+                'location_en' => 'Hawally, Kuwait',
 
-                'image' => 'projects/apartment-moving.jpg',
+                'image' => 'projects/ac-maintenance-hawally.jpg',
 
                 'sort_order' => 2,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'فك وتركيب غرف النوم والكبتات',
-                'title_en' => 'Bedroom & Wardrobe Dismantling and Assembly',
+                'title_ar' => 'تنظيف مكيفات في السالمية',
+                'title_en' => 'AC Cleaning in Salmiya',
 
-                'slug' => 'bedroom-wardrobe-dismantling-assembly',
+                'slug' => 'ac-cleaning-salmiya',
 
-                'category_ar' => 'فك وتركيب',
-                'category_en' => 'Dismantling & Assembly',
+                'category_ar' => 'تنظيف مكيفات',
+                'category_en' => 'AC Cleaning',
 
-                'description_ar' => 'فك وتركيب غرف النوم والكبتات والسرائر والتسريحات وجميع قطع الأثاث، مع تجهيز القطع للنقل وإعادة تركيبها في المكان الجديد.',
+                'description_ar' => 'تنظيف مكيفات السبليت وإزالة الأتربة والشوائب من الأجزاء التي تحتاج إلى تنظيف، للمساعدة في تحسين كفاءة التبريد وأداء الجهاز.',
 
-                'description_en' => 'Dismantling and assembly of bedrooms, wardrobes, beds, dressers, and other furniture, including preparation for moving and reassembly at the new location.',
+                'description_en' => 'Split AC cleaning service in Salmiya, removing dust and buildup from areas that require cleaning to help improve cooling performance.',
 
-                'location_ar' => 'الكويت',
-                'location_en' => 'Kuwait',
+                'location_ar' => 'السالمية، الكويت',
+                'location_en' => 'Salmiya, Kuwait',
 
-                'image' => 'projects/bedroom-dismantling.jpg',
+                'image' => 'projects/ac-cleaning-salmiya.jpg',
 
                 'sort_order' => 3,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'تغليف ونقل العفش والأغراض',
-                'title_en' => 'Furniture Packing and Moving',
+                'title_ar' => 'فحص وتعبئة فريون المكيفات',
+                'title_en' => 'AC Refrigerant Inspection and Charging',
 
-                'slug' => 'furniture-packing-and-moving',
+                'slug' => 'ac-refrigerant-inspection-charging-kuwait',
 
-                'category_ar' => 'تغليف العفش',
-                'category_en' => 'Furniture Packing',
+                'category_ar' => 'فريون المكيفات',
+                'category_en' => 'AC Refrigerant',
 
-                'description_ar' => 'خدمة خاصة لتغليف العفش والأثاث والأغراض قبل النقل، مع تجهيز المنقولات للتحميل والنقل والتنزيل للمساعدة في الحفاظ عليها.',
+                'description_ar' => 'فحص أداء المكيف ومستوى الفريون وتعبئته عند الحاجة، مع البحث عن أسباب نقص الفريون أو مشاكل التبريد المرتبطة به.',
 
-                'description_en' => 'Dedicated furniture and belongings packing service before transportation, preparing items for loading, transportation, and unloading.',
+                'description_en' => 'AC performance and refrigerant inspection with charging when required, including checking for refrigerant loss and related cooling problems.',
 
-                'location_ar' => 'الكويت',
-                'location_en' => 'Kuwait',
+                'location_ar' => 'الفروانية، الكويت',
+                'location_en' => 'Farwaniya, Kuwait',
 
-                'image' => 'projects/furniture-packing.jpg',
+                'image' => 'projects/ac-refrigerant.jpg',
 
                 'sort_order' => 4,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'نقل المكاتب والمخازن',
-                'title_en' => 'Office and Warehouse Moving',
+                'title_ar' => 'صيانة المكيفات المركزية',
+                'title_en' => 'Central AC Maintenance',
 
-                'slug' => 'office-warehouse-moving-kuwait',
+                'slug' => 'central-ac-maintenance-kuwait',
 
-                'category_ar' => 'نقل مكاتب ومخازن',
-                'category_en' => 'Office & Warehouse Moving',
+                'category_ar' => 'مكيفات مركزية',
+                'category_en' => 'Central AC',
 
-                'description_ar' => 'نقل أثاث المكاتب ومحتويات المخازن داخل الكويت، مع توفير العمال وسيارات النقل المناسبة حسب كمية وحجم المنقولات.',
+                'description_ar' => 'صيانة وفحص المكيفات المركزية للمنازل والفلل والمكاتب والمنشآت في الكويت، مع التعامل مع مشاكل التبريد والأعطال حسب حالة النظام.',
 
-                'description_en' => 'Office furniture and warehouse contents moving throughout Kuwait, with workers and suitable transportation according to the size and quantity of items.',
+                'description_en' => 'Central AC maintenance and inspection for homes, villas, offices, and businesses in Kuwait, addressing cooling issues and system problems.',
 
-                'location_ar' => 'الكويت',
-                'location_en' => 'Kuwait',
+                'location_ar' => 'الجهراء، الكويت',
+                'location_en' => 'Jahra, Kuwait',
 
-                'image' => 'projects/office-warehouse-moving.jpg',
+                'image' => 'projects/central-ac-maintenance.jpg',
 
                 'sort_order' => 5,
                 'is_active' => true,
             ],
 
             [
-                'title_ar' => 'نقل الأثاث والقطع المستعملة',
-                'title_en' => 'Used Furniture Moving',
+                'title_ar' => 'تصليح مكيفات للمنازل والمكاتب',
+                'title_en' => 'Residential and Office AC Repair',
 
-                'slug' => 'used-furniture-moving-kuwait',
+                'slug' => 'residential-office-ac-repair-kuwait',
 
-                'category_ar' => 'نقل أثاث مستعمل',
-                'category_en' => 'Used Furniture Moving',
+                'category_ar' => 'تصليح مكيفات',
+                'category_en' => 'AC Repair',
 
-                'description_ar' => 'نقل الأثاث المستعمل وقطع الأثاث المختلفة داخل الكويت، سواء كانت غرفة نوم أو كبت أو سرير أو كنبة أو أي قطعة أثاث أخرى.',
+                'description_ar' => 'تصليح أعطال المكيفات للمنازل والمكاتب والمحلات، مع فحص المشكلة وتحديد سبب العطل وتنفيذ الإصلاح المناسب حسب نوع المكيف وحالته.',
 
-                'description_en' => 'Moving used furniture and individual furniture pieces throughout Kuwait, including bedrooms, wardrobes, beds, sofas, and other furniture.',
+                'description_en' => 'AC repair for homes, offices, and shops, including problem diagnosis and appropriate repair according to the AC type and condition.',
 
-                'location_ar' => 'الكويت',
-                'location_en' => 'Kuwait',
+                'location_ar' => 'الفحيحيل، الكويت',
+                'location_en' => 'Fahaheel, Kuwait',
 
-                'image' => 'projects/used-furniture-moving.jpg',
+                'image' => 'projects/ac-repair.jpg',
 
                 'sort_order' => 6,
                 'is_active' => true,
@@ -155,3 +155,4 @@ class ProjectSeeder extends Seeder
         }
     }
 }
+
